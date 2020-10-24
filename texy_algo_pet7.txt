@@ -1,0 +1,73 @@
+Algoritma adalah suatu alur yang dibuat harus masuk akal, tidak berbelit (to the point), tidak boleh ada kesalahan kecil (HARUS TELITI). Setiap apa yang kita kerjakan memiliki algoritma.
+
+Algoritma membuat Aplikasi Menghitung Gaji Pegawai
+
+a. Mendeklarasikan variabel
+   gaji_pokok, total_jam_kerja, total_jam_kerja_normal = 40, terlambat, bonus_kelebihan_jam_kerja, total_gaji, bonus_terlambat, bonus_tidak_terlambat.
+   semua bertipe data integer (int)
+
+b. Mendekskripsi alur program
+   a. pengguna menginputkan gaji pokok
+   b. pengguna menginputkan total jam kerja perminggu yang normalnya di set 40
+   c. pengguna menginputkan total terlambat dimana nilai tersebut untuk mengurangi bonus tidak terlambat
+   d. menampilkan gaji pokok
+   e. menampilkan bonus kelebihan jam kerja (total jam kerja - total jam kerja normal), hasil dari nilai ini akan menjadi persentase bonus 
+      dari gaji pokok
+   f. menampilkan bonus tidak terlambat  (jika tidak terlambat otomatis bonus 10 persen dari gaji pokok, selain itu 10 - total hari 
+      terlambat), sama seperti bonus jam kerja, nilai ini akan menjadi persentase bonus dari gaji pokok
+   g. menampilkan hasil penjumlahan total gaji dengan semua perhitungan
+
+c. Program dari aplikasi kasir
+
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+   // Mendeklarasikan variable
+   int gaji_pokok, 
+      total_jam_kerja, 
+      total_jam_kerja_normal = 40, 
+      terlambat, 
+      bonus_kelebihan_jam_kerja, 
+      total_gaji, 
+      bonus_terlambat, 
+      bonus_tidak_terlambat;
+   
+   // header
+   cout<<"Aplikasi Menghitung Gaji Pegawai By Andri Firman Saputra"<<endl;
+   cout<<"-------------------------------------------------------------"<<endl;
+   
+   cout<<"Masukkan Gaji Pokok (Rupiah) \t\t: ";
+   cin>>gaji_pokok;
+   
+   cout<<"Masukkan Total Jam Kerja (Per minggu) \t: ";
+   cin>>total_jam_kerja;
+   
+   cout<<"Masukkan Total Terlambat (hari) \t: ";
+   cin>>terlambat;
+   
+   total_jam_kerja -= total_jam_kerja_normal;
+   bonus_kelebihan_jam_kerja = gaji_pokok * total_jam_kerja * 5 / 100;
+   bonus_tidak_terlambat = gaji_pokok * 10 / 100;
+   bonus_terlambat = gaji_pokok * (10 - terlambat) / 100;
+   
+   cout<<"-------------------------------------------------------------"<<endl;
+   
+   cout<<"Gaji Pokok \t\t\t\t: Rp. "<<gaji_pokok<<endl;
+   cout<<"Bonus Kelebihan Jam Kerja ("<<total_jam_kerja<<") jam \t: Rp. "<<bonus_kelebihan_jam_kerja<<endl;
+   if(terlambat <= 0)
+   {
+      cout<<"Bonus Tidak Telat (10% * GP) \t\t: Rp. "<<bonus_tidak_terlambat<<endl; 
+      total_gaji = gaji_pokok + bonus_kelebihan_jam_kerja + bonus_tidak_terlambat;
+   }
+   else 
+   {
+      cout<<"Bonus Terlambat ("<<terlambat<<") hari \t\t: Rp. "<<bonus_terlambat<<endl;
+      total_gaji = gaji_pokok + bonus_kelebihan_jam_kerja + bonus_terlambat;
+   }
+   cout<<"-------------------------------------------------------------"<<endl;
+   cout<<"Total Gaji \t\t\t\t: Rp. "<<total_gaji<<endl;
+}
