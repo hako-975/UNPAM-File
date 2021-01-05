@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// abstract function
 void tampil(string mata_kuliah, 
 			int sks, 
 			string nim, 
@@ -16,6 +17,7 @@ void tampil(string mata_kuliah,
 			float nilai_angka, 
 			char grade);
 
+// function gotoxy
 void gotoxy(int x, int y)
 {
   static HANDLE h = NULL;  
@@ -25,6 +27,7 @@ void gotoxy(int x, int y)
   SetConsoleCursorPosition(h,c);
 }
 
+// function cetak
 void cetak(int a, int b, char *teks)
 {
 	gotoxy(a, b);
@@ -52,6 +55,7 @@ main()
 		cout<<"PROGRAM NILAI HASIL PERKULIAHAN MAHASISWA"<<endl;
 		gotoxy(50, 2);
 		cout<<"KELOMPOK 1"<<endl;
+		
 		// input nim
 		gotoxy(2,4);
 		cout<<"Masukkan NIM";
@@ -119,18 +123,12 @@ main()
 		
 		if(jumlah_kehadiran && nilai_tugas && nilai_uts && nilai_uas > 0)
 		{
-			/* 
-			untuk yg jml hadir, 
-			jadi jika jml hadir kurang dari empat, maka nilainya otomatis berkurang
-			contoh: 2 - 4 = -2 * 10 = -20 * 10% = -2
-			nilai akan ditambahkan -2			    
-			*/
 			nilai_angka = (((jumlah_kehadiran - 4) * 10) * 0.1) + 
 						  (nilai_tugas * 0.2) + 
 						  (nilai_uts * 0.3) + 
 						  (nilai_uas * 0.4);
 						  
-			if(nilai_angka > 80)
+			if(nilai_angka >= 80)
 			{
 				grade = 'A';
 			}
@@ -216,7 +214,7 @@ void tampil(string mata_kuliah,
 	cetak(4,19,"===============================================================================================");
 	cout<<endl;
 	cetak(4,20,"|");
-	cetak(6,20,""); cout<<nim;
+	cetak(5,20,""); cout<<nim;
 	
 	cetak(19,20,"|");
 	cetak(21,20,""); cout<<nama_mhs;
