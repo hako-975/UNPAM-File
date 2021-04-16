@@ -1,0 +1,6 @@
+1. Tulislah kode program C++ untuk menghitung faktorial
+2. Tulislah program untuk menghitung nilai rata-rata dari sekumpulan data bilangan bulat yang dibaca berulang-ulang dari papan ketik(algoritma dan program C++).
+3. Tulislah kode program C++ untuk mengalikan dua buah matrik. Perkalian dilakukan dalam suatu prosedur yang memiliki  parameter  masukan  dan  keluaran.  
+   Parameter  masukan  berupa  dua  matrik  yang  diperkalikan,sedangkan parameter keluaran berupa matrik hasil perkalian.
+4. Tulislah program C++ untukmenghitung deret Fibonacci.
+5. Tulislah algoritma dan program C++ untuk menentukan nilai terbesar dan terkecil dari 3 integer
