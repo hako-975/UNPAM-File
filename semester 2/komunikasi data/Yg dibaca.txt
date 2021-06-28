@@ -1,0 +1,16 @@
+================================================
+Apa perbedaan internet, intranet dan ekstranet?
+================================================
+Intranet: sebuah jaringan internal perusahaan yang dibangun menggunakan teknologi internet. Arsitektur dari intranet berupa aplikasi web dan menggunakan protocol TCP/IP.
+Extranet: jaringan intranet perusahaan yang ingin mengekspose informasi yang mereka miliki ke jaringan luar. 
+Internet: sebuah sistem komunikasi global yang menghubungkan komputer-komputer dan jaringan-jaringan komputer diseluruh dunia.
+
+Internet, ekstranet, dan intranet semua bergantung pada teknologi TCP / IP yang sama. Namun, mereka berbeda dalam hal tingkat akses yang mereka izinkan untuk berbagai pengguna di dalam dan di luar organisasi dan ukuran jaringan. Intranet memungkinkan akses terbatas hanya ke anggota organisasi; ekstranet memperluas akses itu dengan mengizinkan non-anggota seperti pemasok dan pelanggan untuk menggunakan sumber daya perusahaan. Perbedaan antara Internet dan ekstranet adalah bahwa sementara ekstranet memungkinkan akses terbatas ke non-anggota organisasi, Internet umumnya memungkinkan setiap orang untuk mengakses semua sumber daya jaringan.
+
+Kesimpulan
+1. Pengertian internet adalah suatu jaringan komunikasi yang menghubungkan antara berbagai media elektronik yang ada. Sejarah pertama kali internet ditemukan pada tahun 1960 – an dan digunakan untuk kebutuhan riset dan penelitian dalam bidang militer.
+
+2. Sejarah internet di Indonesia diperkenalkan pertama kali pada tahun 1994 yang diprakarsai oleh beberapa orang ahli di bidang IT.
+
+3. Perkembangan internet dari tahun ke tahun mengalami peningkatan yang pesat, seiring dengan kebutuhan manusia yang terus meningkat. Sehingga, manfaat internet dapat dirasakan pada berbagai bidang kehidupan.
+
