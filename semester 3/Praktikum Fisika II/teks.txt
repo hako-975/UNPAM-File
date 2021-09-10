@@ -1,0 +1,15 @@
+Voltmeter
+Voltmeter adalah alat yang berfungsi untuk mengukur tegangan listrik, yang dipasang secara pararel pada rangkaian.
+
+Amperemeter
+Amperemeter adalah alat yang berfungsi untuk mengukur kuat arus listrik., yang dipasang secara seri pada rangkaian.
+
+Hukum OHM
+Bunyi hukum ohm adalah “Besar arus listrik (I) yang mengalir melalui sebuah penghantar atau Konduktor akan berbanding lurus dengan beda potensial / tegangan (V) yang diterapkan kepadanya dan berbanding terbalik dengan hambatannya (R)”.
+
+Hukum 1 Kirchoff
+Bunyi Hukum Kirchhoff 1 adalah sebagai berikut : “Arus Total yang masuk melalui suatu titik percabangan dalam suatu rangkaian listrik sama dengan arus total yang keluar dari titik percabangan tersebut.”
+
+Hukum 2 Kirchoff
+Bunyi Hukum 2 Kirchhoff adalah sebagai berikut : “Total Tegangan (beda potensial) pada suatu rangkaian tertutup adalah nol”.
+

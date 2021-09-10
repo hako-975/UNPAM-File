@@ -1,0 +1,13 @@
+Vektor
+persamaan linear
+matriks
+implementasi
+
+pertemuan 1
+-------------------------
+memahami vektor
+
+pertemuan 2
+-------------------------
+penjumlah pengurangan vektor
+penjumlah pengurangan skalar
