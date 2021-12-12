@@ -1,0 +1,3 @@
+Bisa kita lihat pada gambar graf a, graf ini adalah graf yang memiliki lintasan hamilton (3, 2, 1, 4).
+Pada graf b, graf yang satu ini merupakan graf sirkuit hamilton (1, 2, 3, 4, 1).
+Sedangkan Pada graf c, tidak memiliki lintasan maupun sirkuit hamilton.
