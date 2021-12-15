@@ -1,0 +1,5 @@
+1. hitunglah matriks eselon baris, terduksi, dan rank
+2. ekspansi kolom dan baris, mencari minor dan kofaktor
+3. determinan
+4. adjoin
+5. sistem persamaan
