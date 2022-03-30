@@ -1,0 +1,81 @@
+Koneksi
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public static String PathReport=System.getProperty("user.dir") + "/src/Laporan";
+    private static Connection koneksi;
+    public static Connection getkoneksi() {
+        if (koneksi==null) {
+            try {
+                String url=new String();
+                String user=new String();
+                String password=new String();
+                url="jdbc:mysql://localhost:3306/05tple001db";
+                user="root";
+                password="";
+                DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+                koneksi=DriverManager.getConnection(url,user,password);
+            }catch (SQLException t) {
+                System.out.println("Error membuat koneksi");
+            }
+        }
+     return koneksi;
+    }
+
+////////////////////////////////////////////
+LOGIN
+import java.awt.Dimension;
+import java.awt.Toolkit;
+import java.sql.*;
+import javax.swing.JOptionPane;
+import java.awt.event.KeyEvent;
+import pkg05tple001.ClassDatabase;
+
+ try {
+
+            Connection c = ClassDatabase.getkoneksi();
+            Statement s = c.createStatement();
+            String username = TxtUsername.getText();
+            String password = new String(TxtPassword.getPassword());
+            String sql = "Select * from login where username ='"+ username + "'";
+            ResultSet r = s.executeQuery(sql);
+
+
+            if(TxtUsername.getText().isEmpty()) 
+    {
+    JOptionPane.showMessageDialog(this, "Username Tidak Boleh Kosong !!!","MAAF",JOptionPane.YES_OPTION);
+   }
+    else{
+    if (TxtPassword.getText().isEmpty())
+    {
+        JOptionPane.showMessageDialog(this, "Password Tidak Boleh Kosong!!!","MAAF",JOptionPane.YES_OPTION);
+    }
+    else{
+            while (r.next()) {
+                String uname = r.getString("Username");
+                String pwd = r.getString("password");
+
+                if ((username.equals(uname)) && (password.equals(pwd))) {
+                    JOptionPane.showMessageDialog(this, "Login Anda Sukses","SELAMAT",JOptionPane.NO_OPTION);
+                    new MenuUtama().setVisible(true);
+                    this.setVisible(false);
+                } else {
+                    JOptionPane.showMessageDialog(this, "Username atau Password Salah, Tolong Periksa Kembali!!!","MAAF",JOptionPane.YES_OPTION);
+                }
+            }}}
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e);
+        }     
+
+////////////////////////////////
+LOGOUT
+
+ int ex = JOptionPane.showConfirmDialog(null, "Apakah anda akan keluar? ", "Anda yakin?",
+                JOptionPane.YES_NO_OPTION);
+        if (ex == 0) {
+            dispose();
+        }
+
+//////////////////////////////////////////////

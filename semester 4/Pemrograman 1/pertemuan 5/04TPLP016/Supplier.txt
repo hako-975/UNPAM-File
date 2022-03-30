@@ -1,0 +1,63 @@
+import serviceenoni.ClassDatabase;
+import com.mysql.jdbc.PreparedStatement;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.text.DecimalFormat;
+import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
+import net.proteanit.sql.DbUtils;
+
+////////////////////////////////////////////SAVE
+ String kodesup=this.txtKodesup.getText();
+    String namasup=this.txtNamasup.getText();
+    String alamatsup=this.txtAlamatsup.getText();
+    String notelpsup=this.txtNotelpsup.getText();
+     if(txtKodesup.getText().isEmpty()) 
+    {
+    JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Kode Supplier Tidak Boleh Kosong");
+   }
+    else{
+    if (txtNamasup.getText().isEmpty())
+    {
+        JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Nama Supplier Tidak Boleh Kosong");
+    }
+    else{
+    if (txtAlamatsup.getText().isEmpty())
+    {
+        JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Alamat Tidak Boleh Kosong");
+    }
+    else{
+    if (txtNotelpsup.getText().isEmpty())
+    {
+        JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Nomor Telp Tidak Boleh Kosong");
+    }   
+    else{
+    try {
+            Connection c=ClassDatabase.getkoneksi();
+            String sql = "Insert into supplier values (?,?,?,?)";
+            PreparedStatement p=(PreparedStatement) c.prepareStatement(sql);
+            p.setString(1, kodesup);
+            p.setString(2, namasup);  
+            p.setString(3, alamatsup);
+            p.setString(4, notelpsup);
+            p.executeUpdate();
+            p.close();
+            JOptionPane.showMessageDialog(this, "Sukses Tambah Data");
+    
+    
+        }catch(SQLException e){
+            System.out.println(e);
+        }finally{       
+    }}}}}
+      try {        
+        
+            Connection c=ClassDatabase.getkoneksi();
+            Statement s= c.createStatement();
+            String sql="select kodesup, namasup, alamatsup, notelpsup from supplier";
+            ResultSet r=s.executeQuery(sql);
+            tblSup.setModel(DbUtils.resultSetToTableModel(r));
+}catch (Exception e){
+JOptionPane.showMessageDialog(null, e);
+}
