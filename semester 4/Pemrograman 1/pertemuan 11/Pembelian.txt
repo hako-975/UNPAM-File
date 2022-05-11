@@ -1,0 +1,156 @@
+////////////////////////////Import
+import com.mysql.jdbc.PreparedStatement;
+import static com.sun.org.apache.xalan.internal.lib.ExsltDatetime.date;
+import serviceenoni.ClassDatabase;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Date;
+import javax.swing.JOptionPane;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import javax.swing.table.DefaultTableModel;
+import net.proteanit.sql.DbUtils;
+
+///////////////////////////////ADD
+ txtKodesp.setText("");
+        txtNamasp.setText("");
+        txtHargabsp.setText("");
+        txtHargajsp.setText("");
+        txtTotalstok.setText("");
+        txtJumlahb.setText("");
+        txtTglb.setDate(null);
+        txtKodesup.setText("");
+        txtNamasup.setText("");
+        txtNobeli.requestFocus();
+
+//////////////////////////////CLOSE
+               int ex = JOptionPane.showConfirmDialog(null, "Apakah anda akan keluar? ", "Anda yakin?",
+        JOptionPane.YES_NO_OPTION);
+        if (ex == 0) {
+            dispose();
+    }
+
+///////////////////////////txtKodesupCaretUpdate
+ try {
+            Connection c=ClassDatabase.getkoneksi();
+            Statement s= c.createStatement();
+            String sql="Select * from supplier where kodesup='" + this.txtKodesup.getText() + "'";
+            ResultSet r=s.executeQuery(sql);
+            while (r.next()){
+                this.txtNamasup.setText(r.getString(2));
+            }
+            r.close();
+            s.close();
+
+        }catch(SQLException e) {
+            System.out.println("Terjadi kesalahan" + e);
+        }
+
+////////////////////////////////////////txtKodespCaretUpdate
+try {            
+            Connection c=ClassDatabase.getkoneksi();
+            Statement s= c.createStatement();
+            String sql="Select * from mastersp where kodesp='" + this.txtKodesp.getText() + "'";
+            ResultSet r=s.executeQuery(sql);
+           while (r.next()){
+                this.txtNamasp.setText(r.getString(2));   
+                this.txtHargabsp.setText(r.getString("h_belisp"));
+                this.txtHargajsp.setText(r.getString("h_jualsp"));
+                this.txtTotalstok.setText(r.getString("stoksp"));
+            }
+            r.close();
+            s.close();
+            
+        }catch(SQLException e) {
+            System.out.println("Terjadi kesalahan" + e);
+        }
+
+//////////////////////////Save
+    int id = 0, saham1=0, totalb1=0;
+    java.util.Date tgl_beli=(java.util.Date) this.txtTglb.getDate();
+    String no_beli=this.txtNobeli.getText();
+    String kodesp=this.txtKodesp.getText();
+    String kodesup=this.txtKodesup.getText();
+    int stoksp1=Integer.parseInt(txtTotalstok.getText());
+    int j_beli1=Integer.parseInt(txtJumlahb.getText());
+    int h_belisp1=Integer.parseInt(txtHargabsp.getText());
+    
+    stoksp1 = stoksp1+j_beli1;
+    saham1 = stoksp1*h_belisp1;
+    totalb1 = j_beli1*h_belisp1;    
+    
+    String h_belisp=this.txtHargabsp.getText();
+    txtTotalstok.setText(Integer.toString(stoksp1)); 
+    txtJumlahb.setText(Integer.toString(j_beli1 )); 
+    String saham = Integer.toString(saham1);
+    String totalb = Integer.toString(totalb1);
+    String stoksp=this.txtTotalstok.getText();
+    String j_beli=this.txtJumlahb.getText();
+    
+    if(txtNobeli.getText().isEmpty()) 
+    {
+    JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Nomor Pembelian Tidak Boleh Kosong");
+   }
+    else{
+    if (txtKodesp.getText().isEmpty())
+    {
+        JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Kode Sparepart Tidak Boleh Kosong");
+    }
+    else{
+    if (txtJumlahb.getText().isEmpty())
+    {
+        JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Jumlah Pembelian Tidak Boleh Kosong");
+    }
+     else{
+    if (txtKodesup.getText().isEmpty())
+    {
+        JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Kode Supplier Tidak Boleh Kosong");
+    }
+    else{
+    try {
+            Connection c=ClassDatabase.getkoneksi();
+            String sql = "Insert into belisp values (?,?,?,?,?,?,?)";
+            PreparedStatement p=(PreparedStatement) c.prepareStatement(sql);
+            p.setInt(1, id);
+            p.setString(2, no_beli); 
+            p.setString(3, kodesp);  
+            p.setString(4, j_beli);
+            p.setString(5, totalb);
+            p.setDate(6, new java.sql.Date(tgl_beli.getTime()));
+            p.setString(7, kodesup);            
+            p.executeUpdate();
+            p.close();
+            JOptionPane.showMessageDialog(this, "Sukses Tambah Data");
+    
+    
+        }catch(SQLException e){
+            System.out.println(e);
+        }finally{       
+    }}}}
+                try {        
+            Connection c=ClassDatabase.getkoneksi();
+            Statement s= c.createStatement();
+            String sql="select id, no_beli, kodesp, j_beli, tgl_beli, kodesup from belisp";
+            ResultSet r=s.executeQuery(sql);
+            tblAcc.setModel(DbUtils.resultSetToTableModel(r));
+
+}catch (Exception e){
+JOptionPane.showMessageDialog(null, e);
+}}
+        try {
+            Connection c=ClassDatabase.getkoneksi();
+            String sql ="UPDATE `servicedb`.`mastersp` SET `stoksp`=?, `saham`=? where kodesp=?";
+            PreparedStatement p=(PreparedStatement) c.prepareStatement(sql);
+            p.setString(3, kodesp);
+            p.setString(1, stoksp);
+            p.setString(2, saham);
+            p.executeUpdate();
+            p.close();
+        }catch(SQLException e){
+            System.out.println(e);
+        }finally{
+            
+            
+      }
