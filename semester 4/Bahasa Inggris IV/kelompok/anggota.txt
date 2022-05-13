@@ -1,0 +1,9 @@
+Company Name	: RisingSun IT
+Company Address	: Jl. Sudirman No. 100, Kel. Gunung Sindur, Kec. Setu, Kota Jakarta Selatan 13469
+Division	: 
+•	Aisyah Mawar Kusuma Salsabila (Accounting) (201011400704)
+•	Andri Firman Saputra (Software Development) (201011402125)
+•	Bima Darmaja Suryatama (President) (201011400701)
+•	Dzaki Rozzan (IT Support) (201011402179)
+•	Fariz Septiawan (Marketing) (201011401491)
+•	Rangga Ariansyah (Database Administrator) (201011400688)
