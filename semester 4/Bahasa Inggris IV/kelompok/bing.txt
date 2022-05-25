@@ -1,0 +1,5 @@
+1. produksi meminta ke bagian finansial membuat request pembelian (form request purchase)
+
+akunting membuat purchase order, mengemail seluruh perusahaan
+1. purchase request, pihak menerima memberikan invoice
+2. membayar dengan kuitansi

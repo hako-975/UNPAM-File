@@ -1,0 +1,241 @@
+import com.mysql.jdbc.PreparedStatement;
+import static com.sun.org.apache.xalan.internal.lib.ExsltDatetime.date;
+import serviceenoni.ClassDatabase;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Date;
+import javax.swing.JOptionPane;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import javax.swing.table.DefaultTableModel;
+import net.proteanit.sql.DbUtils;
+
+/////////////////////////////////
+   public FormJual() {
+        initComponents();
+        txtDiskon.setText("0");
+           btnSave.setEnabled(false);
+           txtDiskon.setEnabled(false);
+    }
+	////////////////////////////////// ADD
+	  txtDiskon.setEnabled(false);
+        txtDiskon.setText("0");
+                       txtNojualsp.setText("000001");
+                 try {        
+        
+            Connection c=ClassDatabase.getkoneksi();
+            Statement s= c.createStatement();
+            String sql="Select no_jual from jualsp";
+            ResultSet r=s.executeQuery(sql);
+            
+            while(r.next())
+            {
+                   int auto_id = r.getInt(1) + 1;
+                   String no = String.valueOf(auto_id);
+                   int noLong = no.length();
+                   //MENGATUR jumlah 0
+                    for(int a=1;a<7-noLong;a++)
+                    { no = 0 + no;}
+                   txtNojualsp.setText(no);
+                 }        
+      r.close();
+       s.close();
+}    
+catch (Exception e){
+            JOptionPane.showMessageDialog(this, "ERROR: \n" + e.toString(),
+                            "Kesalahan", JOptionPane.WARNING_MESSAGE);
+} 
+       txtKodesp.setText("");
+       txtNamasp.setText("");
+        txtHargasp.setText("");
+        txtStoksp.setText("");
+        txtQtysp.setText("");
+        txtStoksp.setText("");
+        txtTotalsp.setText("");
+        txtKodesp.requestFocus();
+		////////////////////////////////////// SAVE
+		txtDiskon.setEnabled(false);
+    int id = 0, saham1=0, profit1, totalb, total1, totalok;
+    java.util.Date tgl_jual=(java.util.Date) this.txtTgla.getDate();
+    String no_jual=this.txtNojualsp.getText();
+    String kodesp=this.txtKodesp.getText();
+    int hargsp1=Integer.parseInt(txtHargasp.getText());
+    int qty1=Integer.parseInt(txtQtysp.getText());
+    int stoksp1=Integer.parseInt(txtStoksp.getText());
+    int h_belisp1=Integer.parseInt(txtHargabv.getText());
+    int diskon=Integer.parseInt(txtDiskon.getText());
+   
+    stoksp1 = stoksp1-qty1;
+    saham1 = stoksp1*h_belisp1;
+    totalb = h_belisp1 * qty1;
+    total1 =hargsp1 * qty1;
+    totalok = total1-diskon;
+    
+    profit1 = totalok - totalb;
+    
+    txtStoksp.setText(Integer.toString(stoksp1)); 
+    txtQtysp.setText(Integer.toString(qty1)); 
+    txtTotalsp.setText(Integer.toString(totalok));
+    String saham = Integer.toString(saham1);
+
+    
+        int stoksp=Integer.parseInt(txtStoksp.getText());
+    int qty=Integer.parseInt(txtQtysp.getText());
+    int total=Integer.parseInt(txtTotalsp.getText());
+    
+    if(txtKodesp.getText().isEmpty()) 
+    {
+    JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Kode Sparepart Tidak Boleh Kosong");
+   }
+    else{
+    if (txtQtysp.getText().isEmpty())
+    {
+        JOptionPane.showMessageDialog(this, "Data Belum Lengkap, Qty Tidak Boleh Kosong");
+    }
+    else{
+    try {
+            Connection c=ClassDatabase.getkoneksi();
+            String sql = "Insert into jualsp values (?,?,?,?,?,?,?)";
+            PreparedStatement p=(PreparedStatement) c.prepareStatement(sql);
+            p.setInt(1, id);
+            p.setString(2, no_jual);
+            p.setString(3, kodesp); 
+            p.setInt(4, qty);  
+            p.setInt(5, total);
+            p.setDate(6, new java.sql.Date(tgl_jual.getTime()));
+            p.setInt(7, profit1);            
+            p.executeUpdate();
+            p.close();
+            JOptionPane.showMessageDialog(this, "Sukses Tambah Data");
+    
+    
+        }catch(SQLException e){
+            System.out.println(e);
+        }finally{       
+    }}
+                try {        
+            Connection c=ClassDatabase.getkoneksi();
+            Statement s= c.createStatement();
+            String sql="select id, no_jual, kodesp, qty, total, tgl_jual from jualsp";
+            ResultSet r=s.executeQuery(sql);
+            tblJualsp.setModel(DbUtils.resultSetToTableModel(r));
+
+}catch (Exception e){
+JOptionPane.showMessageDialog(null, e);
+}}
+        try {
+            Connection c=ClassDatabase.getkoneksi();
+            String sql ="UPDATE `servicedb`.`mastersp` SET `stoksp`=?, `saham`=? where kodesp=?";
+            PreparedStatement p=(PreparedStatement) c.prepareStatement(sql);
+            p.setString(3, kodesp);
+            p.setInt(1, stoksp);
+            p.setString(2, saham);
+            p.executeUpdate();
+            p.close();
+        }catch(SQLException e){
+            System.out.println(e);
+        }finally{
+            
+            
+      }
+              btnSave.setEnabled(false);
+              btnAdd.setEnabled(true);
+    }                                       
+
+    private void txtKodespCaretUpdate(javax.swing.event.CaretEvent evt) {                                      
+        // TODO add your handling code here:
+         try {            
+            Connection c=ClassDatabase.getkoneksi();
+            Statement s= c.createStatement();
+            String sql="Select * from mastersp where kodesp='" + this.txtKodesp.getText() + "'";
+            ResultSet r=s.executeQuery(sql);
+           while (r.next()){
+                this.txtNamasp.setText(r.getString(2)); 
+                this.txtHargabv.setText(r.getString("h_belisp"));
+                this.txtHargasp.setText(r.getString("h_jualsp"));
+                this.txtStoksp.setText(r.getString("stoksp"));
+            }
+            r.close();
+            s.close();
+            
+        }catch(SQLException e) {
+            System.out.println("Terjadi kesalahan" + e);
+        }
+   btnSave.setEnabled(true);
+   btnAdd.setEnabled(false);
+   ////////////////////////////////////////////// Button Tampilkan
+   DefaultTableModel tabelTampil1 = new DefaultTableModel();
+    tabelTampil1.addColumn("NO.");
+    tabelTampil1.addColumn("NO. JUAL");
+    tabelTampil1.addColumn("KODE SP");
+    tabelTampil1.addColumn("QTY");
+    tabelTampil1.addColumn("TOTAL");
+    tabelTampil1.addColumn("TANGGAL");
+        try{
+            Connection c=ClassDatabase.getkoneksi();
+            Statement s= c.createStatement();
+            String sql = "Select * from jualsp where id like '%" + txtCaridata.getText() + "%'" + "or no_jual like '%" + txtCaridata.getText() + "%'" +
+            "or kodesp like '%" + txtCaridata.getText() + "%'"+"or qty like '%" + txtCaridata.getText() + "%'"+
+            "or total like '%" + txtCaridata.getText() + "%'"+ "or tgl_jual like '%" + txtCaridata.getText() + "%'";
+            ResultSet r=s.executeQuery(sql);
+            while (r.next()) {
+            tabelTampil1.addRow(new Object[]{
+            r.getString(1),
+            r.getString(2),
+            r.getString(3),
+            r.getString(4),
+            r.getString(5),
+            r.getString(6),
+            });
+            }
+            tblJualsp.setModel(tabelTampil1);
+
+                }catch (Exception e){
+            }
+			////////////////////////////////////////////////////////txtCaridataCaretUpdate
+			DefaultTableModel tabelTampil1 = new DefaultTableModel();
+    tabelTampil1.addColumn("NO.");
+    tabelTampil1.addColumn("NO. JUAL");
+    tabelTampil1.addColumn("KODE SP");
+    tabelTampil1.addColumn("QTY");
+    tabelTampil1.addColumn("TOTAL");
+    tabelTampil1.addColumn("TANGGAL");
+        try{
+            Connection c=ClassDatabase.getkoneksi();
+            Statement s= c.createStatement();
+            String sql = "Select * from jualsp where id like '%" + txtCaridata.getText() + "%'" + "or no_jual like '%" + txtCaridata.getText() + "%'" +
+            "or kodesp like '%" + txtCaridata.getText() + "%'"+"or qty like '%" + txtCaridata.getText() + "%'"+
+            "or total like '%" + txtCaridata.getText() + "%'"+ "or tgl_jual like '%" + txtCaridata.getText() + "%'";
+            ResultSet r=s.executeQuery(sql);
+            while (r.next()) {
+            tabelTampil1.addRow(new Object[]{
+            r.getString(1),
+            r.getString(2),
+            r.getString(3),
+            r.getString(4),
+            r.getString(5),
+            r.getString(6),
+            });
+            }
+            tblJualsp.setModel(tabelTampil1);
+
+                }catch (Exception e){
+            }
+    }                                       
+
+    private void btnDiskonActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        // TODO add your handling code here:
+                 int ex = JOptionPane.showConfirmDialog(null, "Apakah ada DISKON? ", "Anda yakin?",
+        JOptionPane.YES_NO_OPTION);
+         txtDiskon.setEnabled(false);
+        if (ex == 0) {    
+            txtDiskon.setText("");
+            txtDiskon.setEnabled(true);
+            txtDiskon.requestFocus();
+            }
+        else {
+        txtDiskon.setText("0");
+        }
+			
