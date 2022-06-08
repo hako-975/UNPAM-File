@@ -1,0 +1,107 @@
+Sistem Komputer 
+Sistem
+Suatu kesatuan elemen yang saling berhubungan sehingga membentuk suatu kelompok dalam melaksanakan suatu tujuan pokok yang ditargetkan.
+Komputer
+Komputer merupakan suatu perangkat elektronika yang dapat menerima dan mengolah data menjadi informasi, menjalankan program yang tersimpan dalam memori, serta dapat bekerja secara otomatis dengan aturan tertentu.
+
+Sistem Komputer
+Adalah elemen-elemen yang terkait untuk menjalankan suatu aktifitas dengan menggunakan komputer sehingga dapat memperoleh informasi atau tujuan tertentu.
+
+B. Bagian-Bagian Sistem Komputer
+1.Hardware (Perangkat Keras)
+Adalah salah satu komponen dari sebuah komputer atau rangkaian elektronika yang sifat alatnya dapat dilihat dan diraba oleh manusia secara langsung atau berbentuk nyata, yang berfungsi untuk mendukung proses komputerisasi.
+Contoh :
+- Monitor
+- Mouse
+- Keyboard, dll.
+
+Komponen Utama Perangkat Keras
+Perangkat keras komputer (hardware) terdiri dari empat komponen utama, yaitu :
+a. Input Device
+b. Central Processing Unit (CPU)
+c. Storage (Memory)
+d. Output Device
+
+Input-Process-Output Model
+a. Input Device (Perangkat Masukan)
+Perangkat yang berfungsi membaca atau menterjemahkan data (bentuk data) sehingga dapat diproses oleh komputer.
+b. Central Processing Unit (CPU)
+CPU / Processor merupakan bagian dari perangkat keras komputer yang melakukan pemprosesan aritmatika dan logika serta pengendalian operasi komputer secara keseluruhan.
+
+Processor memiliki dua bagian utama, yaitu :
+1. ALU (Arithmetic Logic Unit)
+ALU, singkatan dari Arithmetic And Logic Unit adalah salah satu bagian dalam dari sebuah mikroprosesor yang berfungsi untuk melakukan operasi hitungan aritmatika dan logika. Contoh operasi aritmatika adalah operasi penjumlahan, pengurangan, dan lain- lain, sedangkan contoh operasi logika adalah logika AND, OR, NOT.
+Tugas utama dari ALU (Arithmetic And Logic Unit) adalah melakukan semua perhitungan aritmatika atau matematika yang terjadi sesuai dengan instruksi program. 
+2. Unit kontrol (bahasa Inggris: Control Unit - CU) adalah salah satu bagian dari CPU yang bertugas untuk memberikan arahan/kendali/ kontrol terhadap operasi yang dilakukan di bagian ALU (Arithmetic Logical Unit) di dalam CPU tersebut.
+
+Tugas dari CU adalah sebagai berikut :
+Mengatur dan mengendalikan semua peralatan yang ada pada sistem komputer, kapan alat input menerima data dan kapan data diolah serta kapan ditampilkan pada alat output.
+Mengartikan instruksi-instruksi dari program komputer.
+Membawa data dari alat input ke memori utama.
+Mengambil data dari memori utama untuk diolah.
+Membawa hasil pengolahan data kembali ke memori utama lagi untuk disimpan, dan pada saatnya akan disajikan ke alat output.
+
+Berdasarkan fungsi dibagi menjadi dua : Primary Memory dan Secondary Memory
+c. Memory
+Bagian dari sistem komputer yang berfungsi untuk menampung / menyimpan data maupun program.
+Berdasarkan fungsi dibagi menjadi dua :
+Primary Memory
+dipergunakan untuk menyimpan data dan instruksi dari program yang sedang dijalankan
+Secondary Memory
+dipergunakan untuk menyimpan data atau program biner secara permanen
+
+Media penyimpan data (memory) dapat dibedakan sebagai berikut :
+Internal Storage
+RAM (Random Access Memory)
+merupakan memory utama yang digunakan untuk membaca atau menulis data sekaligus menyimpan data dan bersifat sementara (volatile).
+ROM (Read Only Memory)
+merupakan memory yang hanya dapat membaca saja. ROM sudah diisi oleh pabrik pembuatnya berupa program-program yang digunakan untuk mengatur proses dasar atau instruksi untuk menyalakan komputer.
+
+
+Eksternal Storage
+Harddisk
+Flash Disk
+CD R
+DVD
+Memory Card
+Disket
+dll.
+
+d. Output Device
+Adalah peralatan yang berfungsi untuk mengeluarkan hasil pemrosesan ataupun pengolahan data yang berasal dari CPU kedalam suatu media yang dapat dibaca oleh manusia ataupun dapat digunakan untuk penyimpanan data hasil proses.
+
+Software (Perangkat Lunak)
+Perangkat Lunak / Program yang dijalankan Pada komputer atau sekumpulan data-data elektronik yang tersimpan dan diatur oleh komputer yang berupa program atau instruksi untuk menjalankan dan mengeksekusi suatu perintah.
+Fungsi software adalah sebagai interaksi antara perangkat keras dan pengguna (user).
+
+Contoh Software :
+a. Sistem Operasi
+b. Program Aplikasi
+c. Program Utilitas
+
+a. Sistem Operasi
+Sistem operasi adalah perangkat lunak sistem yang bertugas untuk melakukan kontrol dan manajemen perangkat keras serta operasi-operasi dasar sistem.
+Contoh : 
+- DOS
+- Novell
+- Windows
+- Linux
+- Mac OS
+
+b. Program Aplikasi
+Program aplikasi adalah suatu subkelas perangkat lunak komputer yang memanfaatkan kemampuan komputer langsung untuk melakukan suatu tugas yang diinginkan pengguna. Atau perangkat lunak siap pakai yang nantinya akan digunakan untuk membantu melaksanakan pekerjaan penggunanya.
+Contoh : 
+- Microsoft Office
+- Adobe Photoshop
+- CorelDraw
+- Adobe Dreamweaver
+
+c. Program Utility
+Program utility adalah suatu program khusus yang digunakan untuk menjalankan tugas- tugas maintenance.
+Contoh : 
+- Anti Virus
+- GetDataBack
+- Partition Magic
+
+3.Brainware (user)
+Brainware adalah manusia yang terlibat dalam mengoperasikan serta mengatur sistem di dalam komputer. Diartikan juga sebagai perangkat intelektual yang mengoperasikan dan mengeksplorasi kemampuan dari Hardware maupun Software.

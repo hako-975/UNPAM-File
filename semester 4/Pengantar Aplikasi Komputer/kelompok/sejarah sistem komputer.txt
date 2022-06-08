@@ -1,0 +1,21 @@
+Sejarah perkembangan sistem komputer adalah sejarah yang terkait dengan perkembangan sistem operasi, dimana dapat dikelompokan menjadi lima kurun waktu (generasi).
+Generasi Pertama(1945-1955)
+Generasi ini merupakan awal pengembangan sistem komputasi elektronik, mengganti gagasan-gagasan mesin komputasi mekanis. Manusia memerlukan perangkat komputasi untuk mengatasi keterbatasannya dalam melakukan komputasi. Manusia mempunyai keterbatasan dalam komputasi, yaitu:
+Kecepatan penghitung manusia terbatas.
+Manusia sangat mudah membuat kesalahan.
+
+Generasi Kedua(1955-1965)
+Komputer generasi kedua ini merupakan batch processing system.
+Batch Processing System
+Tugas-tugas dikumpulkan di dalam satu rangkaian kemudian dieksekusi secara berurutan. Pada generasi ini, tugas-tugas adalah program-program yang harus dikerjakan oleh komputer. program-program itu dituliskan di tape.
+
+Generasi Ketiga(1965-1980)
+Perkembangan berlanjut, sistem operasi dikembangkan untuk melayani banyak pemakai interaktif sekaligus. Pemakai-pemakai interaktif berkomunikasi dengan komputer lewat terminal secara online (yang dihubungkan secara langsung) kesatu komputer. Sistem komputer menjadi:
+Multiuser, yaitu sekaligus digunakan banyak orang.
+Multiprogramming, yaitu sekaligus melayani banyak program.
+
+Generasi Keempat(1980-2000AN)
+Pada generasi keempat ini, sistem operasi tidak lagi hanya diperutukan untuk satu mode pengolahan, tetapi telah ditujukan untuk banyak mode pengolahan, misalnya mendukung batch processing, timesharing, networking dan (soft) realtime applications sekaligus. Hanya hard real-time applications sulit disatukan dengan mode-mode pengolahan yang lainnya karena berisiko tinggi. Pada generasi ini, kenyamanan mengoperasikan sistem komputer juga dinilai penting. Komputer yang makin ampuh telah sanggup memberi antar muka grafis yang nyaman. Komputer desktop dinyamankan dengan GUI (Graphical User Interface). GUI ini dimulai X Windows System hasil penelitian di MIT, kemudian Macintosh, Sun View, disusul Microsoft Windows.
+
+Generasi Kelima (2000AN - sekarang)
+Awal munculnya komputer-komputer modern dengan Spesifikasi yang lebih tinggi.

@@ -1,0 +1,4 @@
+Apa arti dari sistem komputer?
+Sistem Komputer adalah kumpulan perangkat-perangkat komputer yang saling berhubungan dan berinteraksi satu sama lain untuk melakukan proses pengolahan data, sehingga dapat menghasilkan informasi yang diharapkan oleh penggunanya.
+Apa tujuan dari sistem komputer?
+Tujuan pokok dari sistem komputer adalah mengolah data untuk menghasilkan informasi sehingga perlu didukung oleh elemen-elemen yang terdiri dari perangkat keras (hardware), perangkat lunak (software), dan brainware.
