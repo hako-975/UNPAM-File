@@ -1,0 +1,14 @@
+- git
+	- apa itu git?
+		- VCS
+		- masalah tanpa git
+	- fungsi git
+	- kelebihan git
+	- sintaks git
+- github
+	- apa itu github?
+	- kelebihan github
+	- git vs github
+- html
+- css
+- figma
