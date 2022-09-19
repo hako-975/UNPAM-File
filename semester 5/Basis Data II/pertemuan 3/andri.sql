@@ -105,13 +105,13 @@ SELECT CHAR(97)
 SELECT CHAR(98)
 SELECT CHAR(99)
 
-SELECT LEN('Andri Firman Saputra')
+SELECT LEN('Andri Firman Saputra') AS LEN_Nama
 
 SELECT LOWER('BELAJAR SQL') AS Hasil_Konversi
 
 SELECT UPPER('Belajar sql') AS Hasil_Konversi
 
-SELECT LEFT('Belajar SQL', 3) 
+SELECT LEFT('Belajar SQL', 3)
 
 SELECT RIGHT('Belajar SQL', 4)
 
