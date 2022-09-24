@@ -21,10 +21,12 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/modul_jepang.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo Modul Jepang" width="35"> Modul Jepang</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +36,8 @@
           <div class="navbar-nav ms-auto">
             <a class="mx-2 nav-link text-white" href="#beranda"><i class="bi-house-fill"></i> Beranda</a>
             <a class="mx-2 nav-link text-white" href="#tentang"><i class="bi-info-circle"></i> Tentang Kami</a>
-            <a class="mx-2 nav-link text-white" href="#kontak"><i class="bi-headset"></i> Kontak</a>
+            <a class="mx-2 nav-link text-white" href="#linimasa"><i class="bi-bezier2"></i> Linimasa</a>
+            <a class="mx-2 nav-link text-white" href="#kontak"><i class="bi-envelope"></i> Kontak</a>
           </div>
           <a class="mx-2 btn btn-success rounded-pill" href="materi.html"><i class="bi-journal-text"></i> Materi</a>
         </div>
@@ -87,7 +90,7 @@
         <div class="row">
           <div class="col-lg">
             <h3 class="text-center"><i class="bi-info-circle"></i> Tentang Kami</h3>
-            <hr class="hr">
+            <hr class="hr-divider">
             <img src="assets/img/favicon.png" alt="Logo Modul Jepang" class="float-start rounded mx-3" width="150">
             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Sit deleniti, quia ipsam eos at voluptates porro, suscipit, culpa nobis nesciunt explicabo rem nihil minus iste vel aliquid aut delectus! Facere omnis soluta a dolorum voluptatem, earum hic ducimus quas dicta. Optio necessitatibus ipsa vitae unde sit beatae facilis voluptates veritatis.</p>
             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ullam necessitatibus ab. Commodi enim iure impedit modi architecto, accusamus cumque, incidunt porro doloribus voluptatem quo excepturi beatae. Reprehenderit labore tempore amet praesentium facilis assumenda dicta, totam alias, at quae repellat itaque necessitatibus debitis cum odit doloremque vel repudiandae dolorem accusantium perferendis neque adipisci possimus quidem aperiam cupiditate? Ipsum culpa esse doloribus reiciendis, dolorem tempore voluptas ad accusamus debitis impedit consequatur, rem, amet voluptatem quisquam incidunt!</p>
@@ -97,13 +100,75 @@
       </div>
     </section>
 
+    <!-- Timeline -->
+    <section id="linimasa">
+      <div class="container">
+          <h3 class="text-center"><i class="bi-bezier2"></i> Linimasa</h3>
+          <hr class="hr-divider">
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle"><i class="bi-check"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Pahami Huruf</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis enim eu erat lacinia pharetra a et mi. Vivamus tincidunt lorem non semper commodo.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Pahami Kosakata</h4>
+              <p>Pellentesque vehicula urna et sollicitudin tempus. Suspendisse pretium neque id scelerisque semper. Mauris sem metus, rutrum at fermentum vitae, tincidunt a mi. Vestibulum scelerisque lacinia nunc quis iaculis. Proin pellentesque odio dolor, in placerat ex vestibulum eget. Integer sit amet feugiat dolor. Proin convallis viverra erat at euismod.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle"><i class="bi-check"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+              <div class="circle"><i class="bi-check"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Jawab latihan soal</h4>
+              <p>Aenean in fermentum ante. Praesent tempus lectus sed consectetur rutrum. Nulla imperdiet semper sollicitudin. Quisque consectetur nulla id magna efficitur sodales. Etiam dapibus metus diam, malesuada cursus ligula dapibus non. Duis pellentesque hendrerit orci id congue.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
     <!-- Kontak -->
     <section id="kontak">
       <div class="container">
         <div class="row">
           <div class="col-lg">
-            <h3 class="text-center"><i class="bi-headset"></i> Kontak</h3>
-            <hr class="hr">
+            <h3 class="text-center"><i class="bi-envelope"></i> Kontak</h3>
+            <hr class="hr-divider">
           </div>
         </div>
         <div class="row mb-3">

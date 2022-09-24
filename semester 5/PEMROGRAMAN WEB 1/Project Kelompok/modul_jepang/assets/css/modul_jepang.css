@@ -15,19 +15,33 @@ body {
   text-align: justify;
 }
 
-section .hr {
+.bg-color-nav {
+  background-color: transparent;
+  opacity: 1;
+}
+
+@media(max-width: 1000px) {
+  .bg-color-nav {
+    background-color: #DC3545;
+    opacity: 1;
+  }
+  .carousel {
+    padding-top: 60px;
+  }
+}
+
+
+/* Section */
+section .hr-divider {
+  opacity: 1;
   width: 50%;
-  color: #fff;
-  background-color: #fff;
-  border-top: 5px solid red;
+  border-top: 5px solid #DC3545;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
 }
-
-/* Section */
 section {
-  margin: 40px 0;
+  padding-top: 75px;
 }
 
 /* Navbar */
@@ -58,6 +72,10 @@ section {
 }
 
 /* Footer */
+#footer {
+  margin-top: 50px;
+}
+
 #footer li i {
   display: table-cell;
   position: relative;
@@ -161,4 +179,77 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.circle {
+  padding: 0 10px;
+  border-radius: 30%;
+  font-size: 2rem;
+  background-color: #DC3545;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.connecting-lines.row .col-2 {
+  align-self: stretch;
+}
+.connecting-lines.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #DC3545;
+  z-index: 1;
+}
+.connecting-lines.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.connecting-lines.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.connecting-lines.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  opacity: 1;
+  border-top: 3px solid #DC3545;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #DC3545;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
 }
