@@ -39,6 +39,7 @@ section .hr-divider {
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 section {
   padding-top: 75px;
@@ -181,8 +182,9 @@ section {
   }
 }
 
+/*Timeline*/
 .circle {
-  padding: 0 10px;
+  padding: 0 15px;
   border-radius: 30%;
   font-size: 2rem;
   background-color: #DC3545;
@@ -191,35 +193,12 @@ section {
   z-index: 2;
 }
 
-.connecting-lines.row .col-2 {
-  align-self: stretch;
-}
-.connecting-lines.row .col-2::after {
-  content: "";
-  position: absolute;
-  border-left: 3px solid #DC3545;
-  z-index: 1;
-}
-.connecting-lines.row .col-2.bottom::after {
-  height: 50%;
-  left: 50%;
-  top: 50%;
-}
-.connecting-lines.row .col-2.full::after {
-  height: 100%;
-  left: calc(50% - 3px);
-}
-.connecting-lines.row .col-2.top::after {
-  height: 50%;
-  left: 50%;
-  top: 0;
-}
-
 
 .timeline div {
   padding: 0;
   height: 40px;
 }
+
 .timeline hr {
   opacity: 1;
   border-top: 3px solid #DC3545;
@@ -227,6 +206,7 @@ section {
   top: 17px;
   position: relative;
 }
+
 .timeline .col-2 {
   display: flex;
   overflow: hidden;
@@ -252,4 +232,16 @@ section {
 .timeline .right-bottom {
   left: 50%;
   top: calc(50% - 3px);
+}
+
+.connecting-line-right {
+  border-right: 3px solid #DC3545;
+  margin-right: -8.35%;
+  padding-right: 10%;
+}
+
+.connecting-line-left {
+  border-left: 3px solid #DC3545;
+  margin-left: -8.3%;
+  padding-left: 10%;
 }
