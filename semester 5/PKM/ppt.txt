@@ -1,0 +1,11 @@
+----------- SLIDE 5 -------------
+1. Seorang pengembang atau developer atau programmer
+itu pake kode HTML 
+buat ngerancang gimana si browser itu
+nampilin elemen halaman web, 
+elemen halaman web tu kayak, 
+teks, hyperlink, dan file media.
+
+2. Pengguna dapat dengan mudah menavigasi 
+dan menyisipkan tautan antara 
+situs web terkait maupun situs web luar.
