@@ -245,3 +245,25 @@ section {
   margin-left: -8.3%;
   padding-left: 10%;
 }
+
+/*scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #DBA4A9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #DC3545;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #89363d;
+}
