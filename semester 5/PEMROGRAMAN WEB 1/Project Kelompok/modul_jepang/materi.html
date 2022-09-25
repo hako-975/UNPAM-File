@@ -39,17 +39,35 @@
             <a class="mx-2 nav-link text-white" href="index.html#linimasa"><i class="bi-bezier2"></i> Linimasa</a>
             <a class="mx-2 nav-link text-white" href="index.html#kontak"><i class="bi-envelope"></i> Kontak</a>
           </div>
-          <a class="mx-2 btn btn-success rounded-pill" href="materi.html"><i class="bi-journal-text"></i> Materi</a>
+          <div class="dropdown">
+            <button class="mx-2 btn btn-success rounded-pill dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi-journal-text"></i> Materi
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#huruf">Huruf-huruf</a></li>
+              <li><a class="dropdown-item" href="#kosakata">kosakata</a></li>
+              <li><a class="dropdown-item" href="#pola_kalimat">Pola Kalimat</a></li>
+              <li><a class="dropdown-item" href="#latihan_soal">Latihan Soal</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
-
     <section id="materi">
       <div class="container">
         <div class="row">
           <div class="col">
             <h3 class="text-center"><i class="bi-journal-text"></i> Materi</h3>
             <hr class="hr-divider">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="huruf">
+      <div class="container">
+        <div class="row">
+          <div class="col">
             <h4>A. Huruf-huruf Jepang</h4>
             <!-- Hiragana -->
             <div class="card mb-3">
@@ -62,7 +80,7 @@
                 <div class="col-md-10">
                   <div class="card-body">
                     <h5 class="card-title">Huruf Hiragana</h5>
-                    <p class="card-text">Huruf Hiragana Jepang terdiri dari 104 huruf, yaitu: 46 huruf dasar あ (a) sampai ん (n), 20 huruf teng-teng (“) yang disebut dengan Dakuon , 5 huruf maru (<sup>o</sup>) yang disebut dengan Handakuon, dan 33 huruf dengan kombinasi ゃ (ya) - ゅ (yu) - ょ (yo) kecil yang disebut dengan Youon.</p>
+                    <p class="card-text text-justify">Huruf Hiragana Jepang terdiri dari 104 huruf, yaitu: 46 huruf dasar あ (a) sampai ん (n), 20 huruf teng-teng (“) yang disebut dengan Dakuon , 5 huruf maru (<sup>o</sup>) yang disebut dengan Handakuon, dan 33 huruf dengan kombinasi ゃ (ya) - ゅ (yu) - ょ (yo) kecil yang disebut dengan Youon.</p>
                     <a href="#" class="btn btn-success"><i class="bi-book"></i> Pelajari!</a>
                   </div>
                 </div>
@@ -79,14 +97,23 @@
                 <div class="col-md-10">
                   <div class="card-body">
                     <h5 class="card-title">Huruf Katakana</h5>
-                    <p class="card-text">Huruf Katakana sama seperti huruf Hiragana terdiri dari 104 huruf, yaitu: 46 huruf dasar ア (a) sampai ン (n), 20 huruf teng-teng (“) yang disebut dengan Dakuon , 5 huruf maru (<sup>o</sup>) yang disebut dengan Handakuon, dan 33 huruf dengan kombinasi ャ (ya) - ュ (yu) - ョ (yo) kecil yang disebut dengan Youon.</p>
+                    <p class="card-text text-justify">Huruf Katakana sama seperti huruf Hiragana terdiri dari 104 huruf, yaitu: 46 huruf dasar ア (a) sampai ン (n), 20 huruf teng-teng (“) yang disebut dengan Dakuon , 5 huruf maru (<sup>o</sup>) yang disebut dengan Handakuon, dan 33 huruf dengan kombinasi ャ (ya) - ュ (yu) - ョ (yo) kecil yang disebut dengan Youon.</p>
                     <a href="#" class="btn btn-success"><i class="bi-book"></i> Pelajari!</a>
                   </div>
                 </div>
               </div>
             </div>
-            <h4>B. Kosakata Jepang</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="kosakata">
+      <div class="container">
+        <div class="row">
+          <div class="col">
             <!-- Kosakata -->
+            <h4>B. Kosakata Jepang</h4>
             <div class="card mb-3">
               <div class="row g-0">
                 <div class="col-md-2">
@@ -97,8 +124,78 @@
                 <div class="col-md-10">
                   <div class="card-body">
                     <h5 class="card-title">Kosakata</h5>
-                    <p class="card-text"></p>
+                    <p class="card-text text-justify">Di Jepang pada tahun 2002 berisi 73.181 kosakata dari buku Kamus Jepang Shinsen Kokugo Jiten edisi 8. Karena itu, tidak mungkin kita bisa menghafal kosakata sebanyak itu. Sebaiknya, kita pelajari kosakata dalam kehidupan sehari-hari.</p>
                     <a href="#" class="btn btn-success"><i class="bi-book"></i> Pelajari!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pola_kalimat">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <!-- Pola kalimat -->
+            <h4>C. Pola Kalimat</h4>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <a href="assets/img/materi/pola_kalimat.png" class="enlarge" id="check_enlarge_photo">
+                    <img src="assets/img/materi/pola_kalimat.png" id="check_photo" class="img-fluid rounded-start" alt="Pola Kalimat">
+                  </a>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title">Pola Kalimat</h5>
+                    <p class="card-text text-justify">Pola kalimat.</p>
+                    <a href="#" class="btn btn-success"><i class="bi-book"></i> Pelajari!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="latihan_soal">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <!-- Latihan Soal -->
+            <h4>D. Latihan Soal</h4>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <a href="assets/img/materi/latihan_soal_1.png" class="enlarge" id="check_enlarge_photo">
+                    <img src="assets/img/materi/latihan_soal_1.png" id="check_photo" class="img-fluid rounded-start" alt="Latihan Soal">
+                  </a>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title">Latihan 1</h5>
+                    <p class="card-text text-justify">Latihan 1 berisi soal-soal tentang huruf Jepang</p>
+                    <a href="#" class="btn btn-danger"><i class="bi-play"></i> Mulai!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <a href="assets/img/materi/latihan_soal_2.png" class="enlarge" id="check_enlarge_photo">
+                    <img src="assets/img/materi/latihan_soal_2.png" id="check_photo" class="img-fluid rounded-start" alt="Latihan Soal">
+                  </a>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title">Latihan 2</h5>
+                    <p class="card-text text-justify">Latihan 2 berisi soal-soal tentang Kosakata Jepang</p>
+                    <a href="#" class="btn btn-danger"><i class="bi-play"></i> Mulai!</a>
                   </div>
                 </div>
               </div>
