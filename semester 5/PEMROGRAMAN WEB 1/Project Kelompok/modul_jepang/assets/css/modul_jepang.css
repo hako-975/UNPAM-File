@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 /* Font */
 body {
   font-family: 'Poppins', sans-serif;
@@ -40,9 +45,6 @@ section .hr-divider {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
-}
-section {
-  padding-top: 75px;
 }
 
 /* Navbar */

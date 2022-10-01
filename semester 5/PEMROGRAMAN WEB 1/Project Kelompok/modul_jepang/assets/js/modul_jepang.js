@@ -1,6 +1,7 @@
 // Transparent Navbar
 let nav = document.querySelector('#navbar');
 
+
 window.addEventListener('scroll', function() 
 {
   if (window.pageYOffset > 50) 

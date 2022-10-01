@@ -9,3 +9,9 @@ teks, hyperlink, dan file media.
 2. Pengguna dapat dengan mudah menavigasi 
 dan menyisipkan tautan antara 
 situs web terkait maupun situs web luar.
+
+
+	/*display
+	ada inline = itu sebaris kyk span tapi dia kg bisa diatur tinggi lebar
+	ada block = itu kyk div kebawah tapi dia bisa diatur tinggi lebar
+	ada inline-block = dia sebaris tapi bisa di atur tinggi lebar*/

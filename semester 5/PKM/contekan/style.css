@@ -1,9 +1,9 @@
-html {
-	scroll-behavior: smooth;
-}
-
 * {
 	font-family: 'Arial', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
@@ -68,7 +68,7 @@ section {
 	text-align: center;
 }
 
-.bio-p {
+.bio-paragraph {
 	text-align: center;
 	width: 50%;
 	margin-right: auto;
@@ -91,9 +91,16 @@ section {
 }
 
 .progress-bar {
-	background-color: #d83250; 
 	height: 16px; 
 	border-radius: 20px;
+}
+
+.color-blue {
+	background-color: #89caba;
+}
+
+.color-red {
+	background-color: #d83250; 
 }
 
 .margin-top-25 {
@@ -101,7 +108,7 @@ section {
 }
 
 .card {
-	border: 1px solid #0000001A;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0,.2);
 	border-radius: 20px;
 	display: inline-block;
 	width: 20%;
@@ -111,8 +118,7 @@ section {
 }
 
 .card-img {
-	width: 100px;
-	height: 100px;
+	width: 30%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
