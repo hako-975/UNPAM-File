@@ -269,3 +269,17 @@ section .hr-divider {
 ::-webkit-scrollbar-thumb:hover {
   background: #89363d;
 }
+
+/* btn latihan */
+.btn-latihan {
+  --bs-btn-padding-y: 1rem;
+  --bs-btn-padding-x: 2rem;
+  --bs-btn-font-size: 2.5rem;
+  --bs-btn-border-radius: 1rem;
+}
+
+/*quiz*/
+.img-div > img {
+  width: 15rem;
+  height: 15rem;
+}
