@@ -1,0 +1,68 @@
+Tim 5 - Aplikasi Daftar Kontak HP
+
+Anggota Tim:
+Abdul Rahman            (191011401775)
+Andri Firman Saputra        (201011402125)
+Yaasmiin Nuhaa Asa Putri    (201011402172)
+
+Mata Kuliah : Pemrograman 2
+Jurusan     : Teknik Informatika
+Kampus      : Universitas Pamulang
+
+Bahan yang digunakan dalam pembuatan aplikasi:
+ - Windows 10 64-bit
+https://www.microsoft.com/en-us/software-download/windows10
+
+- Apache Netbeans versi 12 ke atas
+https://netbeans.apache.org/download/nb15/ 
+
+- Java JDK versi 8.2 (Windows 10 64-bit)
+https://www.oracle.com/webapps/redirect/signon?nexturl=https://download.oracle.com/otn/java/jdk/8u202-b08/1961070e4c9b4e26a04e7f5a083f551e/jdk-8u202-windows-x64.exe
+
+- XAMPP versi 8.1.10
+https://downloadsapachefriends.global.ssl.fastly.net/8.1.10/xampp-windows-x64-8.1.10-0-VS16-installer.exe?from_af=true
+
+- Plugin iReport versi 5.6.0 & Library Mysql
+https://drive.google.com/drive/folders/1rApeNn3zGxO02bMntQWDDdvkzStCLBxc?usp=sharing
+
+0:00 Perkenalan
+0:22 Daftar Isi
+0:51 1. Membuat Project 
+1:30 Buka Netbeans
+1:38 Membuat Project Baru
+2:09 Membuat File JFrame Form DaftarKontakHp.java
+2:26 Mendesain Tampilan Aplikasi
+6:57 Mengganti Variable Name (Change Variable Name)
+8:12 2. Membuat Database
+8:44 Membuat Database Baru Pada phpmyadmin
+8:58 Membuat Table Baru
+10:03 Membuat File Java Class Koneksi.java
+11:55 Membuat Constructor Koneksi
+13:26 Membuat Function Insert (Create)
+16:49 Membuat Function Update (Update)
+19:22 Membuat Function Delete (Delete)
+21:09 Membuat Function GetDataKontak (Read)
+22:43 Memanggil File Koneksi.java
+23:15 Membuat Function refreshTable (Read)
+26:05 Mengfungsikan Tombol Simpan
+27:51 Mengoneksikan Library Mysql
+28:35 Debugging jdbc
+29:24 Debugging pst
+30:22 Mengfungsikan Tombol Edit
+32:22 Mengfungsikan Tombol Update (Update)
+35:42 Memanggil refreshTable (read)
+36:43 Debugging Interger.parseInt
+38:14 Debugging id_kontak Update
+38:52 Mengfungsikan Tombol Delete (Delete)
+40:35 Debugging id_kontak Delete
+41:43 3. Menginstall Plugin iReport
+42:06 Menginstall Plugin
+42:33 Mengonfigurasi iReport
+43:14 Mengimport Library iReport
+43:58 Membuat file Report Wizard
+45:26 Mengatur Tampilan Report
+46:57 Menambahkan Data
+48:03 Menambahkan Tombol Cetak (Print)
+50:30 Mencoba Mencetak Report
+50:49 Export to PDF
+51:12 Penutup
