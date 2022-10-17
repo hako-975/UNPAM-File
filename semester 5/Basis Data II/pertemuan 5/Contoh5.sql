@@ -81,9 +81,13 @@ CONSTRAINT PK_Mengajar primary key (kodeMengajar));
 
 ALTER TABLE TblMengajar
 ADD CONSTRAINT FK_Dosen Foreign Key (NoDos)
-REFERENCES TblDosen(NoDos)ALTER TABLE TblMengajar
+REFERENCES TblDosen(NoDos)
+
+ALTER TABLE TblMengajar
 ADD CONSTRAINT FK_Matakuliah Foreign Key (KodeMK)
-REFERENCES TblMatakuliah(KodeMK)ALTER TABLE TblMengajar
+REFERENCES TblMatakuliah(KodeMK)
+
+ALTER TABLE TblMengajar
 ADD CONSTRAINT FK_Jurusan Foreign Key (KodeJur)
 REFERENCES TblJurusan(KodeJur)
 
@@ -92,7 +96,8 @@ INSERT INTO TblDosen
 Kota, KodePos, GajiPokok)
 VALUES('269','ACHMAD BISRI','Jakarta','1980-01-01',
  'L','Islam','Jl. Raya Jakarta','Jakarta',
- '12345','5000000')INSERT INTO TblDosen
+ '12345','5000000')
+INSERT INTO TblDosen
 (NoDos, NamaDos, TmptLahir, TglLahir, JKelamin, Agama, Alamat,
 Kota, KodePos, GajiPokok)
 VALUES('270','ACHMAD UDIN ZAELANI','Jakarta','1980-02-02',
@@ -123,7 +128,9 @@ INSERT INTO TblMatakuliah
 INSERT INTO TblMatakuliah
 (KodeMK, NamaMK, SKS, Semester) VALUES('IF103','Algoritma dan Pemrograman','4','1')
 INSERT INTO TblMatakuliah
-(KodeMK, NamaMK, SKS, Semester) VALUES('IF104','Fisika Dasar','2','1')INSERT INTO TblJurusan
+(KodeMK, NamaMK, SKS, Semester) VALUES('IF104','Fisika Dasar','2','1')
+
+INSERT INTO TblJurusan
 (KodeJur, NamaJur, Jenjang, KaJur) VALUES('IF1','Teknik Informatika','S1',
 'Ir. Atang Susila, M.Eng')
 INSERT INTO TblJurusan
@@ -152,7 +159,19 @@ INSERT INTO TblMengajar
 (kodeMengajar, ThnAkademik, Semester, KodeMK, NoDos, Hari,
 JamKe, Kelas, KodeJur) VALUES('KM006', '2011','1','IF202','270','Senin','1','408','IF1')
 
-SELECT * FROM TblDosenSELECT * FROM TblMatakuliahSELECT * FROM TblJurusanSELECT * FROM TblMengajarSELECT NamaDos, JKelamin, Alamat, Kota
-FROM TblDosenSELECT NamaDos, JKelamin, Alamat, Kota
+SELECT * FROM TblDosen
+
+SELECT * FROM TblMatakuliah
+
+SELECT * FROM TblJurusan
+
+SELECT * FROM TblMengajar
+
+SELECT NamaDos, JKelamin, Alamat, Kota
 FROM TblDosen
-WHERE Kota = 'Tangerang'
+
+SELECT NamaDos, JKelamin, Alamat, Kota
+FROM TblDosen
+WHERE Kota = 'Tangerang'
+
+
