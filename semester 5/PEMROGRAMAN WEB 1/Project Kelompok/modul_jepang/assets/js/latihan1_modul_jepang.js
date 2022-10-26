@@ -33,69 +33,69 @@ let questions = [{
     choiceD: "i",
     correctAnswer: "B"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/morepork.jpg",
-    choiceA: "Morepork/Ruru",
-    choiceB: "Takahē",
-    choiceC: "Wax-eye",
-    choiceD: "New Zealand Parakeet/Kākāriki",
-    correctAnswer: "A"
-}, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/tui.jpg",
-    choiceA: "Tūī",
-    choiceB: "Whitehead/Pōpokotea",
-    choiceC: "Wrybill/Ngutu pare",
-    choiceD: "Weka",
-    correctAnswer: "A"
-}, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/dotterel.jpg",
-    choiceA: "Westland Petrel/Tāiko",
-    choiceB: "Variable Oystercatcher/Tōrea",
-    choiceC: "Subantarctic Teal",
-    choiceD: "New Zealand Dotterel/Tūturiwhatu",
-    correctAnswer: "D"
-}, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kakapo.jpg",
-    choiceA: "Kākā",
-    choiceB: "Kea",
-    choiceC: "Kākāpō",
-    choiceD: "Kōkako",
+    question: "Huruf apakah ini?",
+    imgSrc: "assets/img/materi/huruf/hiragana/gif/ko.gif",
+    choiceA: "zo",
+    choiceB: "go",
+    choiceC: "ko",
+    choiceD: "do",
     correctAnswer: "C"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kotuku.jpg",
-    choiceA: "New Zealand Fairy Tern/Tara iti",
-    choiceB: "White Heron/Kōtuku",
-    choiceC: "Shore Plover/Tūturuatu",
-    choiceD: "Spotted Shag/Parekareka",
-    correctAnswer: "B"
-}, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kea.jpg",
-    choiceA: "New Zealand Robin/Toutouwai",
-    choiceB: "Paradise Duck / Pūtakitaki",
-    choiceC: "Pūkeko",
-    choiceD: "Kea",
+    question: "Huruf apakah ini?",
+    imgSrc: "assets/img/materi/huruf/katakana/ta.png",
+    choiceA: "fu",
+    choiceB: "nu",
+    choiceC: "wo",
+    choiceD: "ta",
     correctAnswer: "D"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kaka.jpg",
-    choiceA: "Kākā",
-    choiceB: "Tomtit/Miromiro",
-    choiceC: "Yellowhead/Mohua",
-    choiceD: "Fiordland Crested Penguin/Tawaki",
+    question: "Huruf apakah ini?",
+    imgSrc: "assets/img/materi/huruf/katakana/gif/chi.gif",
+    choiceA: "chi",
+    choiceB: "tsu",
+    choiceC: "wo",
+    choiceD: "n",
     correctAnswer: "A"
 }, {
-    question: "Which bird is this?",
-    imgSrc: "assets/birds/kereru.jpg",
-    choiceA: "Kiwi",
-    choiceB: "New Zealand Pigeon/Kererū",
-    choiceC: "Kingfisher/Kōtare",
-    choiceD: "Eastern Bar-Tailed Godwit/Kuaka",
+    question: "Huruf apakah ini?",
+    imgSrc: "assets/img/materi/huruf/katakana/gif/tsu.gif",
+    choiceA: "n",
+    choiceB: "tsu",
+    choiceC: "ku",
+    choiceD: "na",
     correctAnswer: "B"
+}, {
+    question: "Huruf apakah ini?",
+    imgSrc: "assets/img/materi/huruf/katakana/gif/na.gif",
+    choiceA: "ke",
+    choiceB: "ta",
+    choiceC: "fu",
+    choiceD: "na",
+    correctAnswer: "D"
+}, {
+    question: "Huruf apakah ini?",
+    imgSrc: "assets/img/materi/huruf/katakana/gif/ku.gif",
+    choiceA: "ke",
+    choiceB: "ku",
+    choiceC: "ki",
+    choiceD: "ko",
+    correctAnswer: "B"
+}, {
+    question: "Apa itu Lutut dalam bahasa Jepang?",
+    imgSrc: "assets/img/latihan1/lutut.png",
+    choiceA: "hiji",
+    choiceB: "hiza",
+    choiceC: "kubi",
+    choiceD: "yubi",
+    correctAnswer: "B"
+}, {
+    question: "Apa itu Tumit Kaki dalam bahasa Jepang?",
+    imgSrc: "assets/img/latihan1/tumit.png",
+    choiceA: "kakato",
+    choiceB: "ashi",
+    choiceC: "ashikubi",
+    choiceD: "fukurahagi",
+    correctAnswer: "A"
 }, ];
 
 
