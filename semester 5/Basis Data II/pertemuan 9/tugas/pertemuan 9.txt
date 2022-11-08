@@ -1,0 +1,6 @@
+db motor 
+sp 4
+biasa
+variabel
+input 
+output

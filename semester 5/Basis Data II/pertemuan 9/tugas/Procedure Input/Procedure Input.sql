@@ -1,0 +1,15 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE CariGaransi
+@LamaGaransi char(2)
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	SELECT * FROM TblJenisMotor_201011402125_andri 
+	WHERE LamaGaransi_201011402125_andri = @LamaGaransi;
+END
+GO
