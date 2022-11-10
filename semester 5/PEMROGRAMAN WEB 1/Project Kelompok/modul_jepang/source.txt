@@ -2,3 +2,7 @@ img:
 unsplash.com
 pinterest.com
 canva.com
+
+source:
+https://blog.cakap.com/pola-kalimat-bahasa-jepang/
+https://wkwkjapan.com/
