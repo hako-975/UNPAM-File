@@ -1,0 +1,28 @@
+CREATE TRIGGER HapusTabel
+	ON DATABASE
+	FOR DROP_TABLE
+AS
+BEGIN
+	SET NOCOUNT ON;
+	PRINT 'Tabel tidak dapat dihapus, non aktifkan database trigger';
+	ROLLBACK;
+END
+GO
+
+DROP TABLE PelangganLama;
+
+CREATE TRIGGER UserBaru
+ON ALL SERVER
+FOR CREATE_LOGIN
+AS
+BEGIN
+	PRINT 'Selamat user baru telah terdaftar pada server';
+END
+GO
+
+CREATE LOGIN ACHMAD WITH PASSWORD = '12345';
+CREATE LOGIN ANDRI WITH PASSWORD = '12345';
+
+DISABLE TRIGGER HapusTabel ON DATABASE;
+
+DROP TABLE PelangganLama;
