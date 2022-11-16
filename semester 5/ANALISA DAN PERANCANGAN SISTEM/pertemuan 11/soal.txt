@@ -1,0 +1,6 @@
+SOAL LATIHAN/TUGAS
+1. Carilah definisi pengertian Use Case Diagram, Class Diagram, dan Object Diagram selain yang disebutkan di atas!
+2. Definisikan pengertian Use Case Diagram, Class Diagram, dan Object Diagram menurut pendapatmu!
+3. Buatlah studi kasus contoh untuk pembuatan UseCase Diagram!
+4. Buatlah studi kasus contoh untuk pembuatan Class Diagram!
+5. Buatlah studi kasus contoh untuk pembuatan Object Diagram!
