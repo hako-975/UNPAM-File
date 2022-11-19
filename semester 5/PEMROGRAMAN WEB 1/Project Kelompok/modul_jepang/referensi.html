@@ -7,7 +7,7 @@
     <meta name="keywords" content="Modul Jepang">
     <meta name="author" content="Andri Firman Saputra, Yogi, Djafar">
     
-    <title>Latihan 1 - Modul Jepang</title>
+    <title>Sumber Referensi - Modul Jepang</title>
 
     <!-- Favicon -->
     <link rel="icon" href="assets/img/favicon.png">
@@ -26,7 +26,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger hidden-start">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo Modul Jepang" width="35"> Modul Jepang</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,47 +53,41 @@
         </div>
       </div>
     </nav>
-    <section id="latihan1" class="pt-5 mt-5">
+
+    <section id="referensi" class="pt-5 mt-5">
       <div class="container">
         <div class="row">
           <div class="col">
-            <h3 class="text-center"><i class="bi-journal-text"></i> Latihan 1</h3>
+            <h3 class="text-center"><i class="bi-journal-text"></i> Sumber Referensi</h3>
             <hr class="hr-divider">
-            <p class="py-3 text-center hidden-start">Persiapkan dirimu sebelum memulai Latihan, berdoalah agar dilancarkan dalam menjawab latihan ini.</p>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col text-center">
-        		<button id="start" class="mx-auto text-center btn btn-lg btn-danger" onClick= "beginQuiz()"><i class="bi-play"></i> Mulai</button>
-        	</div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <div id="quiz" style="display: none">
-              <h2 id="quizQuestion"></h2>
-              <div class="img-div" id="quizImg"></div>
-              <div id="choices" class="row justify-content-between p-4">
-                <button class="btn btn-primary col-sm-2 my-2" id="choiceA" onclick="check('A')"></button>
-                <button class="btn btn-primary col-sm-2 my-2" id="choiceB" onclick="check('B')"></button>
-                <button class="btn btn-primary col-sm-2 my-2" id="choiceC" onclick="check('C')"></button>
-                <button class="btn btn-primary col-sm-2 my-2" id="choiceD" onclick="check('D')"></button>
+            <div class="row">
+              <div class="col-4">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="https://wkwkjapan.com/" target="_blank">wkwkjapan.com</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="https://blog.cakap.com/pola-kalimat-bahasa-jepang/" target="_blank">blog.cakap.com</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="https://unsplash.com" target="_blank">unsplash.com</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="https://pinterest.com" target="_blank">pinterest.com</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="https://canva.com" target="_blank">canva.com</a>
+                  </li>
+                </ul>
               </div>
-              <div id="choiceResponse" style="display: none"></div>
             </div>
-            <div id="scoreBlock" style="display: none"></div>
-            <div id="scoreMessage" style="display: none"></div>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col text-center">
-            <button id="quizAgain" class="text-center btn btn-lg btn-danger quizRestart" style="display: none" onClick="restartQuiz()"><i class="bi-arrow-clockwise"></i> Coba Lagi!</button>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer id="footer" class="bg-danger text-white hidden-start pt-5">
+    <footer id="footer" class="bg-danger text-white">
       <div class="container pt-4 pb-3">
         <div class="row justify-content-between">
           <div class="col-lg-5">
@@ -156,6 +150,6 @@
     <script src="assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
     <script src="assets/js/modul_jepang.js"></script>
     <script src="assets/js/fancybox-config.js"></script>
-    <script src="assets/js/latihan1_modul_jepang.js"></script>
   </body>
 </html>
+
