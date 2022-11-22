@@ -1,0 +1,8 @@
+mingdep
+ppt
+isi 
+rancangan
+hasil penjelasan
+perkelompok
+implementasi
+
