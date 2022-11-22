@@ -26,7 +26,7 @@ create table customer (
 	alamat nchar(200)
 	primary key(id_customer)
 );
-
+	
 create table barang (
 	id_barang int,
 	nama_barang nchar(100),
@@ -48,8 +48,9 @@ create table servis (
 	constraint FK_Montir
 	foreign Key (id_montir)
 	references montir(id_montir),
-	primary key (id_montir)
+	primary key (id_servis)
 );
+
 
 create table barang_servis (
 	id_barang_servis int, 
@@ -118,3 +119,17 @@ insert into transaksi (id_transaksi, id_user_bengkel, id_servis, tanggal_transak
 (1, 2, 1, '2022-11-21 10:38:59', 216000, 'Biaya Ganti Kampas Rem, Ganti Van Belt, Beli Kampas Rem dan Van Belt Baru'),
 (2, 3, 2, '2022-11-21 13:45:59', 70000, 'Biaya Ganti Oli dan Beli Oli'),
 (3, 2, 3, '2022-11-21 17:08:59', 85000, 'Biaya Ganti Minyak Rem dan Beli Minyak Rem');
+
+select * from user_bengkel;
+
+select * from montir;
+
+select * from customer;
+
+select * from barang;
+
+select * from servis;
+
+select * from barang_servis;
+
+select * from transaksi;
