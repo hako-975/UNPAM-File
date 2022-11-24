@@ -132,4 +132,11 @@ select * from servis;
 
 select * from barang_servis;
 
+select * from barang_servis where id_servis = 1;
+
 select * from transaksi;
+
+select tanggal_transaksi, total_harga, transaksi.keterangan, nama_lengkap, biaya_servis, servis.keterangan from 
+	transaksi 
+	inner join user_bengkel on transaksi.id_user_bengkel = user_bengkel.id_user_bengkel
+	inner join servis on transaksi.id_servis = servis.id_servis;
