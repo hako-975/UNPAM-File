@@ -24,7 +24,7 @@ void sortStringAsc(string s)
 		}
     }
  
-    cout<<s<<endl;
+    cout<<"Hasil: "<<s<<endl;
  
     return;
 }
@@ -51,7 +51,7 @@ void sortStringDesc(string s)
     }
 	
 	
-    cout<<s<<endl;
+    cout<<"Hasil: "<<s<<endl;
  
     return;
 }
