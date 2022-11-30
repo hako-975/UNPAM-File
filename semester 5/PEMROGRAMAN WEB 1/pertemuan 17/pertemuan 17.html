@@ -1,0 +1,21 @@
+<!-- switch/case -->
+<script>
+	
+	var date = new Date(); // fungsi tanggal
+	var theDay = date.getDay(); // ngambil tanggal
+	console.log(theDay);
+	switch(theDay)
+	{
+		case 5:
+			document.write("Finally Friday");
+			break;
+		case 6:
+			document.write("Super Saturday");
+			break;
+		case 2:
+			document.write("Sleepy Sunday");
+			break;
+		default:
+			document.write("I'm looking forward to this weekend");
+	}
+</script>

@@ -145,6 +145,46 @@ function showScore() {
     else {
         scoreMessage.innerHTML = "<p>Pandai! Kamu telah belajar dengan sungguh-sungguh pertahanankan!</p>"
     }
+
+    // switch(score)
+    // {
+    //     case 0:
+    //         scoreMessage.innerHTML = "<p>Belajar lagi! Waktunya sedikit lebih serius.</p>";
+    //         break;
+    //     case 1:
+    //         scoreMessage.innerHTML = "<p>Belajar lagi! Waktunya sedikit lebih serius.</p>";
+    //         break;
+    //     case 2:
+    //         scoreMessage.innerHTML = "<p>Belajar lagi! Waktunya sedikit lebih serius.</p>";
+    //         break;
+    //     case 3:
+    //         scoreMessage.innerHTML = "<p>Belajar lagi! Waktunya sedikit lebih serius.</p>";
+    //         break;
+    //     case 4:
+    //         scoreMessage.innerHTML = "<p>Belajar lagi! Waktunya sedikit lebih serius.</p>";
+    //         break;     case 5:
+    //         scoreMessage.innerHTML = "<p>Lumayan! Sedikit belajar lagi, pasti bisa.</p>"
+    //         break;
+    //     case 6:
+    //         scoreMessage.innerHTML = "<p>Lumayan! Sedikit belajar lagi, pasti bisa.</p>"
+    //         break;
+    //     case 7:
+    //         scoreMessage.innerHTML = "<p>Lumayan! Sedikit belajar lagi, pasti bisa.</p>"
+    //         break;
+    //     case 8:
+    //         scoreMessage.innerHTML = "<p>Lumayan! Sedikit belajar lagi, pasti bisa.</p>"
+    //         break;
+    //     case 9:
+    //         scoreMessage.innerHTML = "<p>Lumayan! Sedikit belajar lagi, pasti bisa.</p>"
+    //         break;
+    //     case 10:
+    //         scoreMessage.innerHTML = "<p>Pandai! Kamu telah belajar dengan sungguh-sungguh pertahanankan!</p>"
+    //         break;
+    //     default:
+    //         scoreMessage.innerHTML = "<p>Belajar lagi! Waktunya sedikit lebih serius.</p>";
+    //         break;
+    // }
+
     scoreMessage.style.display = "block";
     quizAgain.style.display = "inline-block";
 }
