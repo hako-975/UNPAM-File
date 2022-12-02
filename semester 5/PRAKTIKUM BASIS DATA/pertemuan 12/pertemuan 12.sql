@@ -81,7 +81,6 @@ where jadwalfilm.id_film = stdio.id_film;
 
 select * from tblview;
 
-
 select * from tblview where waktu > '2014-03-07 19:30:00';
 
 select * from tblview where judul = 'Haunt';
