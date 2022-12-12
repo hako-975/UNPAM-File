@@ -136,7 +136,13 @@ select * from barang_servis where id_servis = 1;
 
 select * from transaksi;
 
-select tanggal_transaksi, total_harga, transaksi.keterangan, nama_lengkap, biaya_servis, servis.keterangan from 
-	transaksi 
+select tanggal_transaksi, transaksi.keterangan, user_bengkel.nama_lengkap, customer.nama_customer, servis.keterangan, 
+	montir.nama_montir, servis.biaya_servis, barang_servis.subtotal_harga, total_harga from 
+	transaksi
 	inner join user_bengkel on transaksi.id_user_bengkel = user_bengkel.id_user_bengkel
-	inner join servis on transaksi.id_servis = servis.id_servis;
+	inner join servis on transaksi.id_servis = servis.id_servis
+	inner join barang_servis on barang_servis.id_servis = servis.id_servis
+	inner join barang on barang.id_barang = barang_servis.id_barang
+	inner join montir on montir.id_montir = servis.id_montir
+	inner join customer on customer.id_customer = servis.id_customer;
+
