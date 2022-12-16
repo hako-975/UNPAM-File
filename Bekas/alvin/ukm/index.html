@@ -12,34 +12,47 @@
   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
 <body class="d-flex flex-column h-100">
 
   <header>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" width="40" alt="Logo"> UKM UNPAM</a>
+          <a class="navbar-brand text-shadow" href="index.html"><img src="assets/img/logo.png" width="40" alt="Logo"> UKM UNPAM</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link btn btn-primary mx-2 text-white" href="gallery.html">Gallery Kegiatan</a>
+                <a class="nav-link btn btn-primary mx-2 text-white" href="gallery.html"><i class="bi bi-images"></i> Gallery Kegiatan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-primary mx-2 text-white" href="pendaftaran.html">Pendaftaran</a>
+                <a class="nav-link btn btn-primary mx-2 text-white" href="pendaftaran.html"><i class="bi bi-pencil-square"></i> Pendaftaran</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-primary mx-2 text-white" href="kontak.html">Kontak</a>
+                <a class="nav-link btn btn-primary mx-2 text-white" href="kontak.html"><i class="bi bi-geo-alt-fill"></i> Kontak</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-primary" type="submit">Search</button>
-            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="text-white nav-link btn btn-primary mx-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-people-fill"></i> Jenis-jenis UKM
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="basket.html">Basket</a></li>
+                    <li><a class="dropdown-item" href="futsal.html">Futsal</a></li>
+                    <li><a class="dropdown-item" href="kendo.html">Kendo</a></li>
+                    <li><a class="dropdown-item" href="tari.html">Tari</a></li>
+                    <li><a class="dropdown-item" href="voli.html">Voli</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
           </div>
       </div>
     </nav>
@@ -54,7 +67,7 @@
           <div class="card-body">
             <strong class="d-inline-block mb-2 text-primary">Populer</strong>
             <p class="card-text">Unit Kegiatan Mahasiswa yang sangat populer saat ini adalah Futsal</p>
-            <a href="#" class="stretched-link">Selengkapnya</a>
+            <a href="futsal.html" class="stretched-link">Selengkapnya</a>
           </div>
           <img src="assets\img\futsal.png" class="card-img-bottom" alt="Futsal">
         </div>
@@ -64,7 +77,7 @@
           <div class="card-body">
             <strong class="d-inline-block mb-2 text-success">Baru</strong>
             <p class="card-text">Unit Kegiatan Mahasiswa yang baru saat ini adalah Tari</p>
-            <a href="#" class="stretched-link">Selengkapnya</a>
+            <a href="tari.html" class="stretched-link">Selengkapnya</a>
           </div>
           <img src="assets\img\tari.png" class="card-img-bottom" alt="Tari">
         </div>
@@ -85,7 +98,7 @@
         </div>
         <div id="item-1-1">
           <h5>Deskripsi Basket</h5>
-          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="#" class="stretched-link">Selengkapnya</a></p>
+          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="basket.html" class="stretched-link">Selengkapnya</a></p>
         </div>
         <hr>
         <div id="item-2">
@@ -93,7 +106,7 @@
         </div>
         <div id="item-2-1">
           <h5>Deskripsi Futsal</h5>
-          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="#" class="stretched-link">Selengkapnya</a></p>
+          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="futsal.html" class="stretched-link">Selengkapnya</a></p>
         </div>
         <hr>
         <div id="item-3">
@@ -101,7 +114,7 @@
         </div>
         <div id="item-3-1">
           <h5>Deskripsi Kendo</h5>
-          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="#" class="stretched-link">Selengkapnya</a></p>
+          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="kendo.html" class="stretched-link">Selengkapnya</a></p>
         </div>
         <hr>
         <div id="item-4">
@@ -109,7 +122,7 @@
         </div>
         <div id="item-4-1">
           <h5>Deskripsi Tari</h5>
-          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="#" class="stretched-link">Selengkapnya</a></p>
+          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="tari.html" class="stretched-link">Selengkapnya</a></p>
         </div>
         <hr>
         <div id="item-5">
@@ -117,13 +130,14 @@
         </div>
         <div id="item-5-1">
           <h5>Deskripsi Voli</h5>
-          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="#" class="stretched-link">Selengkapnya</a></p>
+          <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Ipsa dolorem provident cum et vel debitis, sint perferendis dignissimos tenetur dicta aperiam explicabo accusantium at delectus optio maiores vero, accusamus iure sapiente nostrum, ullam omnis nemo! Id consequuntur molestias magni, temporibus vitae! Tenetur earum voluptatem nulla, sequi. Nam pariatur praesentium et. <a href="voli.html" class="stretched-link">Selengkapnya</a></p>
         </div>
       </div>
 
       <div class="col-md-4 d-none d-md-block">
-        <div class="position-sticky" style="top: 4rem;">
+        <div class="position-sticky" style="top: 5rem;">
           <nav id="navbar-example3" class="position-sticky h-100 flex-column align-items-stretch ps-4 border-start" style="top: 4rem;">
+            <h4>Menu</h4>
             <nav class="nav nav-pills flex-column">
               <a class="nav-link offset-top-item" href="#item-1">Basket</a>
               <a class="nav-link offset-top-item" href="#item-2">Futsal</a>
