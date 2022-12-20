@@ -1,0 +1,87 @@
+<!-- 
+Buatlah program javascript untuk menghitung total belanja yang harus dibayarkan oleh customer!
+jika jumlah barang lebih dari 100, maka mendapat diskon = 2 digit nim terakhir Anda
+jika belanja tidak mencapai jumlah barang 100, maka tidak mendapat diskon
+di mana:
+input = nama barang, jumlah barang, harga barang
+tampilan output = nama barang, harga barang, jumlah barang ditambah diskon dan total belanja 
+-->
+
+<html>
+<head>
+	<title>UAS - Barang</title>
+</head>
+<body>
+	<h3>Menghitung Total Harga Barang</h3>
+	<form>
+		<table>
+			<tr>
+				<td>Nama Barang</td>
+				<td> : <input type="text" id="namaBarang" required></td>
+			</tr>
+			<tr>
+				<td>Jumlah Barang</td>
+				<td> : <input type="number" id="jumlahBarang" min="1" required></td>
+			</tr>
+			<tr>
+				<td>Harga Barang</td>
+				<td> : <input type="number" id="hargaBarang" min="1" required></td>
+			</tr>
+			<tr>
+				<td><button type="button" onclick="return hitungBarang()">Hitung</button></td>
+			</tr>
+		</table>
+
+	</form>
+	<div id="tampilanHasilHitung"></div>
+	<script>
+		function hitungBarang() {
+			var namaBarang = document.getElementById('namaBarang').value;
+			var jumlahBarang = document.getElementById('jumlahBarang').value;
+			var hargaBarang = document.getElementById('hargaBarang').value;
+			// diskon 2 digit akhir nim
+			var diskon = 25 / 100;
+			var totalHarga = 0;
+			var totalHargaDiskon = 0;
+			var totalAkhir = 0;
+			totalHarga = hargaBarang * jumlahBarang;
+
+			if (jumlahBarang > 100) {
+				totalHargaDiskon = totalHarga * diskon;
+				totalAkhir = totalHarga - totalHargaDiskon;
+			} else {
+				totalAkhir = totalHarga;
+			}
+
+			document.getElementById('tampilanHasilHitung').innerHTML = `
+			<table cellpadding="10" cellspacing="0">
+				<tr>
+					<td>Nama Barang</td>
+					<td> : `+ namaBarang +` </td>
+				</tr>
+				<tr>
+					<td>Jumlah Barang</td>
+					<td> : `+ jumlahBarang +` </td>
+				</tr>
+				<tr>
+					<td>Harga Barang</td>
+					<td> : `+ ``+ hargaBarang +` </td>
+				</tr>
+				<tr>
+					<td>Total</td>
+					<td> : `+ totalHarga +` </td>
+				</tr>
+				<tr>
+					<td>Diskon</td>
+					<td> : `+ totalHargaDiskon +` </td>
+				</tr>
+				<tr>
+					<td>Total Belanja</td>
+					<td> : `+ totalAkhir +` </td>
+				</tr>
+			</table>
+			`;
+		}
+	</script>
+</body>
+</html>
