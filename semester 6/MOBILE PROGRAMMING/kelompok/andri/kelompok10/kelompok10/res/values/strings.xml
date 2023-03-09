@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">kelompok 10</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">User Interface</string>
+    <string name="judul">Menghitung Nilai</string>
+    <string name="uts">UTS</string>
+    <string name="uas">UAS</string>
+    <string name="nilai_akhir">Nilai Akhir</string>
+    <string name="hitung">Hitung</string>
+    <string name="tutup">Tutup</string>
+	
+    <color name="merah">#FF0000</color>
+    <color name="hijau">#00FF00</color>
+    <color name="biru">#0000FF</color>
+</resources>
