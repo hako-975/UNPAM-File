@@ -1,0 +1,86 @@
+for (let i = 0; i < 10; i ++) {
+    console.log("Hacktiv8")
+}
+
+// let myName = "Andri Firman Saputra";
+// let myAge = 21;
+// let isStudent = true;
+
+// if (isStudent === true) {
+//     console.log(`${myName}, silahkan masuk`);
+// } else {
+//     console.log("daftar dulu");
+// }
+
+
+
+
+// let myAge = 20;
+// let yourAge = 21;
+// console.log(myAge > yourAge);
+// console.log(true || false);
+// console.log(false && false);
+
+// let num1 = 100;
+// let num2 = 2;
+// let hasil = num1 / num2;
+// console.log(hasil);
+
+// const phi = 3.14;
+// let jariJari = 5;
+// jariJari = 8;
+// let kelilingLingkaran = 2 * phi * jariJari;
+// console.log(kelilingLingkaran);
+
+// let myName = "Andri Firman Saputra";
+// let myAge = 21;
+// let isStudent = true;
+// console.log(`name: ${nama}`) // interpolasi
+
+// let num1 = 100;
+// let num2 = 2;
+// let hasil = num1 / num2;
+// console.log(hasil);
+
+// const phi = 3.14;
+// let jariJari = 5;
+// jariJari = 8;
+// let kelilingLingkaran = 2 * phi * jariJari;
+// console.log(kelilingLingkaran);
+
+// let myName = "Andri Firman Saputra";
+// let myAge = 21;
+// let isStudent = true;
+// console.log(`name: ${nama}`) // interpolasi
+
+// let num1 = 100;
+// let num2 = 2;
+// let hasil = num1 / num2;
+// console.log(hasil);
+
+// const phi = 3.14;
+// let jariJari = 5;
+// jariJari = 8;
+// let kelilingLingkaran = 2 * phi * jariJari;
+// console.log(kelilingLingkaran);
+
+// let myName = "Andri Firman Saputra";
+// let myAge = 21;
+// let isStudent = true;
+// console.log(`name: ${nama}`) // interpolasi
+
+// let num1 = 100;
+// let num2 = 2;
+// let hasil = num1 / num2;
+// console.log(hasil);
+
+// const phi = 3.14;
+// let jariJari = 5;
+// jariJari = 8;
+// let kelilingLingkaran = 2 * phi * jariJari;
+// console.log(kelilingLingkaran);
+
+// let myName = "Andri Firman Saputra";
+// let myAge = 21;
+// let isStudent = true;
+// console.log(`name: ${nama}`) // interpolasi
