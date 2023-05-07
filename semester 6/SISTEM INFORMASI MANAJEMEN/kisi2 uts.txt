@@ -1,0 +1,12 @@
+1. Defenisi sistem informasi dan arti penting!
+Sistem informasi adalah kumpulan komponen terintegrasi yang mengumpulkan, memproses, menyimpan, mengambil, dan mendistribusikan informasi untuk mendukung pengambilan keputusan, pengendalian operasional, dan kegiatan bisnis. Pentingnya sistem informasi terletak pada kemampuannya untuk meningkatkan efisiensi operasional, mendukung pengambilan keputusan, meningkatkan komunikasi, meningkatkan keamanan informasi, dan meningkatkan kepuasan pelanggan.
+
+2. Bisnis strategi dalam sistem indormasi!
+Strategi bisnis dalam sistem informasi adalah integrasi strategi bisnis dan teknologi informasi untuk menciptakan nilai bisnis. Beberapa contohnya adalah pengembangan sistem informasi khusus, optimisasi penggunaan perangkat lunak dan perangkat keras, cloud computing, big data dan analitik, serta menerapkan keamanan informasi yang ketat. Hal ini penting untuk membantu organisasi mencapai tujuan bisnis, meningkatkan kinerja bisnis secara keseluruhan, dan membedakan diri dari pesaing.
+
+3. Proses bisnis dalam sistem informasi!
+Proses bisnis dalam sistem informasi adalah rangkaian tindakan terkait untuk mencapai tujuan bisnis dengan menggunakan teknologi informasi. Beberapa contohnya meliputi manajemen rantai pasokan, pemesanan dan pembelian, pelayanan pelanggan, pengolahan transaksi, dan analisis dan pengambilan keputusan. Proses bisnis dalam sistem informasi membantu meningkatkan efisiensi dan efektivitas operasional organisasi serta mencapai tujuan bisnis yang diinginkan.
+
+4. Sistem informasi dan kaitannya dgn e-commerce!
+Sistem informasi dan e-commerce sangat berkaitan karena e-commerce adalah aplikasi dari sistem informasi yang memungkinkan transaksi bisnis secara online. Sistem informasi digunakan dalam e-commerce untuk mengelola aktivitas bisnis seperti pengelolaan produk, pemesanan, pembayaran, pengiriman, dan analisis data pelanggan. Contoh sistem informasi dalam e-commerce meliputi sistem manajemen konten, sistem manajemen relasi pelanggan, sistem manajemen persediaan, sistem manajemen pesanan, dan sistem manajemen pembayaran. Sistem informasi sangat penting dalam e-commerce untuk meningkatkan efisiensi dan pengalaman pelanggan.
+
