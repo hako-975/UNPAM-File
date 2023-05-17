@@ -1,0 +1,9 @@
+1. Persiapkan gambar-gambar yang akan digunakan untuk ppt seperti: foto diri, tanaman, bunga
+2. Sesuaikan warna dan font yang akan digunakan.
+3. Buat slide cover dengan nama, foto diri dan heading Biodata diri 
+4. Buat slide tentang biodata diri yang berisikan tentang informasi pribadi seperti nama, alamat, kontak dan lain-lain. Tambahkan Image Banner untuk background heading. Lalu, buat Shape pada menu Insert > Shapes. Kemudian, atur tata letaknya agar seperti membentuk sidebar. Tidak lupa tambahkan animasi transisi push.
+5. Buat Slide About me. Pada slide ini berisikan tentang bio tidak lupa tambahkan foto diri. Tambahkan background pada teks bio, beri hiasan tanaman. Lalu, tambahkan animasi morph.
+6. Selanjutnya, membuat slide Hobi & Cita-cita. Tambahkan Shape berbentuk pill dan tambahkan hiasan tanaman. lalu, tambahkan animasi morph.
+7. Kemudian, membuat slide Riwayat Pendidikan. Pada slide ini berisikan timeline pendidikan. Seperti sebelumnya tambahkan shape, background dan hiasan. lalu, tambahkan animasi morph.
+8. Setelah itu, membuat slide Kesan dan Pesan. Pada slide ini berisikan pesan dan kesan diri. Lalu, tambahkan shape, background dan hiasan bintang dekat heading. lalu, tambahkan animasi morph.
+9. Terakhir, membuat slide penutup yang berisikan kata terima kasih dengan hiasan.
