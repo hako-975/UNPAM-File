@@ -1,0 +1,10 @@
+Cara menggunakan program adalah sebagai berikut: 
+Pengguna login pada website dengan cara memasukkan username dan password dengan akun yang telah dibuat oleh Administrator.
+Jika sudah login, pengguna masuk ke halaman dashboard. Kemudian, pengguna dapat melihat ringkasan transaksi terbaru, omset, laba dan produk paling laku. 
+Jika Pengguna memilih menu transaksi, pengguna dapat melakukan transaksi. Jika sudah masuk ke dalam halaman transaksi, pengguna dapat menambah transaksi baru. Setelah itu, pengguna menambahkan detail transaksi. Setelah menambahkan produk, pengguna dapat melakukan pembayaran.
+Jika Pengguna memilih menu pemasukan, pengguna dapat menambah stok atau jenis saldo pada produk. Jika pengguna memilih stok, pengguna dapat menambahkan stok pada produk yang sudah ada. Jika pengguna memilih jenis saldo, pengguna dapat menambahkan saldo pada jenis saldo yang sudah ada.
+Jika Pengguna memilih menu produk, pengguna dapat menambahkan produk stok atau produk jenis saldo. Jika pengguna memilih stok, pengguna dapat menambahkan produk yang bertipe stok. Jika pengguna memilih jenis saldo, pengguna dapat menambahkan produk yang bertipe saldo.
+Jika Pengguna memilih menu jenis saldo, pengguna dapat mengelola jenis saldo yang akan digunakan produk jenis saldo.
+Jika Pengguna memilih menu supplier, pengguna dapat mengelola supplier yang akan digunakan menambahkan produk.
+Jika Pengguna memilih menu user, pengguna dapat mengelola user.
+Jika Pengguna memilih menu laporan, pengguna dapat membuat laporan penjualan yang dapat di filter.
