@@ -1,0 +1,14 @@
+a {
+	text-decoration: none;
+}
+
+a.link2 {
+	color: yellow;
+	background-color: green;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+/* link2 ikut menebal jika di hover karena melalui pewarisan tag a:hover */
