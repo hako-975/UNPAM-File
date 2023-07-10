@@ -1,0 +1,13 @@
+detail_transaksi: id_detail_transaksi pk, id_transaksi fk, id_produk fk, jumlah, subtotal
+
+pemasukan: id_pemasukan pk, id_produk fk, id_jenis_saldo fk, id_supplier fk, tanggal_pemasukan, jumlah
+
+produk: id_produk pk, nama_produk, harga_beli, harga_jual, stok, id_jenis_saldo fk
+
+transaksi: id_transaksi pk, tanggal_transaksi, total_harga, bayar, kembalian, id_user fk
+
+supplier: id_supplier pk, nama_supplier, alamat_supplier, no_telp_supplier
+
+jenis_saldo: id_jenis_saldo pk, jenis_saldo, jumlah_saldo
+
+user: id_user pk, username, password, hak_akses, nama_lengkap, no_telp_user
