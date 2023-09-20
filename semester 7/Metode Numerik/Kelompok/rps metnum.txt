@@ -1,0 +1,11 @@
+1. Galat mutlak dan galat relatif, Galat pembulatan
+2. Iterasi Jacobi dan Iterasi gauss-Seidel
+3. Akar NUmerik Persamaan tak linier dengan metode bagi dua dan posisi palsu, titik tetap
+4. Akar NUmerik Persamaan tak linier dengan  newton raphson,metode tali busur, Perhitungan akar persamaan dengan EMT
+5. Interpolasi Polinomial bentuk baku dengan Polinomial Newton & Metode Selisih terbagi Newton
+6. Interpolasi Polinomial bentuk baku dengan Polinomial Lagrange Spline linier, kuadratik, kubik 
+7. Integrasi Numerik: Pengertian Kuadratur dengan Aturan Jumlah Kanan/Kiri/ Tengah AturanSimpson, Simpson 3/8, Aturan BooleMetode Romberg
+8. Integrasi Numerik dengan Kuadratur Gauss – Legendre dan Perhitungan Kuadratur dengan EM
+9. Penurunan Fungsi secara Numerik: Metode Selisih Maju/Mundur/ Pusat dan Ekstrapolasi Richardson dan Turunan Tingkat Tinggi
+10. Penyelesaian PD Biasa (Masalah Nilai Awal) secara numerik:dengan  Metode Euler, Metode Heun, Metode Runge – Kutta, Penyelesaian PD Biasa dengan EMT 
+
