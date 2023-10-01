@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-08-27T16:01:53.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="K-ooGrgoDpmWruW2xMnO" version="21.6.2" type="device">
+  <diagram name="Halaman-1" id="yHuqTSvMMVe54GF11lf6">
+    <mxGraphModel dx="1318" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrXOs4JPUoT8iEmRuTJn-1" target="VrXOs4JPUoT8iEmRuTJn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Topik&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrXOs4JPUoT8iEmRuTJn-2" target="VrXOs4JPUoT8iEmRuTJn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Judul&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrXOs4JPUoT8iEmRuTJn-4" target="VrXOs4JPUoT8iEmRuTJn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Merumuskan Masalah&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="195" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrXOs4JPUoT8iEmRuTJn-7" target="VrXOs4JPUoT8iEmRuTJn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Kajian Teori&lt;br&gt;&lt;/b&gt;Teori, Konsep&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="195" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrXOs4JPUoT8iEmRuTJn-9" target="VrXOs4JPUoT8iEmRuTJn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-9" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Metodologi&lt;/b&gt;&lt;br&gt;Metode, populasi dan sampel penelitian&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="280" width="125" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrXOs4JPUoT8iEmRuTJn-11" target="VrXOs4JPUoT8iEmRuTJn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Pengumpulan Data&lt;br&gt;&lt;/b&gt;Studi Pustaka dan Kuesioner&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="280" width="125" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VrXOs4JPUoT8iEmRuTJn-13" target="VrXOs4JPUoT8iEmRuTJn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Pengolahan Data&lt;br&gt;&lt;/b&gt;Organisasi, Penyajian, Analisis&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="280" width="125" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="VrXOs4JPUoT8iEmRuTJn-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Penulisan Laporan&lt;br&gt;&lt;/b&gt;Sistematika, fungsi, manfaat&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="400" width="125" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
