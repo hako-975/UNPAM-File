@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo Ga Bahaya Tah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://i.pinimg.com/564x/62/d9/3b/62d93b52a4a6c3b0077b93a0ee9b06ae.jpg" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="javascript:void(0);" onclick="location.reload();" ><img src="https://i.pinimg.com/564x/62/d9/3b/62d93b52a4a6c3b0077b93a0ee9b06ae.jpg" class="logo" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just a Website <br>It's. <span>Journey</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum placeat corrupti iste? Rem tempora quia sed perferendis aut et cum odit nisi accusamus laborum praesentium fugit, ratione atque quasi.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="pic.png"  class="starbucks" alt="pic1">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img1.png" onclick="imgSlider('img1.png');changeCircleColor('brown')" alt="1"></li>
+            <li><img src="img2.png" onclick="imgSlider('img2.png');changeCircleColor('#eb7495')" alt="2"></li>
+            <li><img src="img3.png" onclick="imgSlider('img3.png');changeCircleColor('rebeccapurple')" alt="3"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="https://i.pinimg.com/564x/f2/4b/9c/f24b9c207b514ce3de71e63acc58380d.jpg" alt="Discord" height="70px" width="70px" ></a></li>
+            <li><a href="#"><img src="https://i.pinimg.com/564x/b4/be/9a/b4be9a41492d4f31bfb93f16a8640350.jpg" alt="Discord" height="70px" width="70px" ></a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything;
+        }
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+
+
+</body>
+</html>
