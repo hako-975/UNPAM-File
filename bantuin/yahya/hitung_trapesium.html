@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luas Trapesium Calculator</title>
+</head>
+<body>
+  <div id="trapezoid-form">
+    <h2>Menghitung Luas Trapesium</h2>
+    <h5>Diketahui:</h5>
+    <label for="garisBawah">Garis Bawah:</label>
+    <input type="number" id="garisBawah"> Cm<br>
+
+    <label for="garisAtas">Garis Atas:</label>
+    <input type="number" id="garisAtas"> Cm<br>
+
+    <label for="tinggi">Tinggi:</label>
+    <input type="number" id="tinggi"> Cm<br>
+
+    <button onclick="hitungLuas()">Hitung Luas</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function hitungLuas() {
+      var garisBawah = parseFloat(document.getElementById('garisBawah').value);
+      var garisAtas = parseFloat(document.getElementById('garisAtas').value);
+      var tinggi = parseFloat(document.getElementById('tinggi').value);
+
+      var luas = ((garisBawah + garisAtas) / 2) * tinggi;
+
+      document.getElementById('result').innerHTML = "Maka: <br>"+" Luas Trapesium: " + luas + " cm²";
+    }
+  </script>
+</body>
+</html>
