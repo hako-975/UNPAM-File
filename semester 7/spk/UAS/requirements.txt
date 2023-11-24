@@ -1,0 +1,6 @@
+colorama==0.4.6
+greenlet==3.0.1
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+SQLAlchemy==2.0.23
+typing_extensions==4.8.0
