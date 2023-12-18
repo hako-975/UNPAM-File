@@ -1,0 +1,8 @@
+extend-exclude = [
+	"migrations",
+	"*/settings/*_secrets.py",
+]
+line-length = 119
+target-version = "py38"
+show-fixes = true
+show-source = true
