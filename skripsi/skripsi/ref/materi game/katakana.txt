@@ -1,0 +1,51 @@
+Katakana adalah aksara Jepang yang memiliki beberapa fungsi utama, termasuk menulis kata-kata asing, nama asing, mengekspresikan suara atau onomatopeia, memberikan penekanan dalam teks, digunakan dalam desain grafis, dan sebagai alat untuk memberikan keterangan atau terjemahan singkat. Aksara ini memainkan peran penting dalam memfasilitasi penulisan kata-kata asing dan memberikan variasi dalam penulisan teks Jepang.
+
+Tekan kartu huruf untuk menampilkan langkah-langkah cara penulisannya.
+
+Dakuon (20 Huruf):
+Dakuon adalah huruf katakana yang memiliki tambahan dakuten di bagian kanan atas huruf. Tanda baca tambahan ini berbentuk seperti dua buah garis kecil yang serong dari kiri atas ke kanan bawah (") dan disebut dakuten.
+Contohnya:
+カ (ka) + Dakuon = ガ (ga)
+
+Berikut adalah huruf lengkapnya:
+ガ (ga), ギ (gi), グ (gu), ゲ (ge), ゴ (go)
+ザ (za), ジ (ji), ズ (zu), ゼ (ze), ゾ (zo)
+ダ (da), ヂ (ji/dji), ヅ (dzu), デ (de), ド (do)
+バ (ba), ビ (bi), ブ (bu), ベ (be), ボ (bo)
+
+Handakuon (5 Huruf):
+Handakuon adalah huruf katakana yang memiliki tanda baca tambahan di bagian kanan atas huruf. Tanda baca tambahan ini berbentuk seperti lingkaran kecil (゜) dan disebut handakuten.
+Contohnya:
+ハ (ha) + Handakuon = パ (pa)
+
+Berikut adalah huruf lengkapnya:
+パ (pa), ピ (pi), プ (pu), ペ (pe), ポ (po)
+
+Youon (33 Huruf):
+Youon adalah kombinasi dari huruf kecil ya (ゃ), yu (ゅ), dan yo (ょ) dengan huruf dasar yang lain. 
+Contohnya:
+キ (ki) + Youon ya = キャ (kya)
+
+Berikut adalah huruf lengkapnya:
+キャ (kya), キュ (kyu), キョ (kyo)
+シャ (sha), シュ (shu), ショ (sho)
+チャ (cha), チュ (chu), チョ (cho)
+ニャ (nya), ニュ (nyu), ニョ (nyo)
+ヒャ (hya), ヒュ (hyu), ヒョ (hyo)
+ミャ (mya), ミュ (myu), ミョ (myo)
+リャ (rya), リュ (ryu), リョ (ryo)
+ギャ (gya), ギュ (gyu), ギョ (gyo)
+ジャ (ja), ジュ (ju), ジョ (jo)
+ビャ (bya), ビュ (byu), ビョ (byo)
+ピャ (pya), ピュ (pyu), ピョ (pyo)
+
+Katakana Khusus:
+ヴァ (va), ヴィ (vi), ヴ (vu), ヴェ (ve), ヴォ (vo), イェ (ye)
+ウィ (wi), ウェ (we), ウォ (wo)
+シェ (she)
+ジェ (je)
+チェ (che)
+ティ (ti), トゥ (tu), テュ (tyu)
+ディ (di), ドゥ (du), デュ (dyu)
+ツァ (tsa), ツィ (tsi), ツェ (tse), ツォ (tso)
+ファ (fa), フィ (fi), フェ (fe), フォ (fo), フュ (fyu)

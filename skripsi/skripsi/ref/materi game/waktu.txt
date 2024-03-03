@@ -1,0 +1,129 @@
+Dalam bahasa Jepang, ekspresi waktu dapat diekspresikan menggunakan beberapa kata kunci. Berikut adalah beberapa materi waktu yang umum digunakan dalam bahasa Jepang:
+
+Waktu:
+Waktu : 時間 (Jikan)
+Menit : 分 (Fun/Pun)
+Detik : 秒 (Byou)
+Hari : 日 (Hi/Nichi)
+Bulan : 月 (Tsuki/Getsu)
+Tahun : 年 (Toshi/Nen)
+
+Hari-hari dalam Seminggu:
+Senin : 月曜日 (Getsuyoubi)
+Selasa : 火曜日 (Kayoubi)
+Rabu : 水曜日 (Suiyoubi)
+Kamis : 木曜日 (Mokuyoubi)
+Jumat : 金曜日 (Kinyoubi)
+Sabtu : 土曜日 (Doyoubi)
+Minggu : 日曜日 (Nichiyoubi)
+
+Bulan dalam Tahun:
+Januari : 一月 (Ichigatsu)
+Februari : 二月 (Nigatsu)
+Maret : 三月 (Sangatsu)
+April : 四月 (Shigatsu)
+Mei : 五月 (Gogatsu)
+Juni : 六月 (Rokugatsu)
+Juli : 七月 (Shichigatsu)
+Agustus : 八月 (Hachigatsu)
+September : 九月 (Kugatsu)
+Oktober : 十月 (Juugatsu)
+November : 十一月 (Juuichigatsu)
+Desember : 十二月 (Juunigatsu)
+
+Hari dalam Sebulan:
+1 : 一日 (Tsuitachi)
+2 : 二日 (Futsuka)
+3 : 三日 (Mikka)
+4 : 四日 (Yokka)
+5 : 五日 (Itsuka)
+6 : 六日 (Muika)
+7 : 七日 (Nanoka)
+8 : 八日 (Youka)
+9 : 九日 (Kokonoka)
+10 : 十日 (Tooka)
+11 : 十一日 (Juuichinichi)
+12 : 十二日 (Juuninichi)
+20 : 二十日 (Hatsuka)
+30 : 三十日 (Sanjuunichi)
+31 : 三十一日 (Sanjuuichinichi)
+
+Waktu dalam Sehari:
+Pagi : 朝 (Asa)
+Siang : 昼 (Hiru)
+Sore : 夕方 (Yuugata)
+Malam : 夜 (Yoru)
+Antara tengah malam hingga sebelum siang (a.m) : 午前 (Gozen)
+Antara siang hingga malam (p.m) : 午後 (Gogo)
+Setiap hari : 毎日 (Mainichi)
+
+Waktu Saat Ini:
+Sekarang : 今 (Ima)
+Hari Ini : 今日 (Kyou)
+Minggu Ini : 今週 (Konshuu)
+Bulan Ini : 今月 (Kongetsu)
+Tahun Ini : 今年 (Kotoshi)
+
+Waktu Yang Akan Datang:
+Besok : 明日 (Ashita)
+Lusa : 明後日 (Asatte)
+Minggu Depan : 来週 (Raishuu)
+Bulan Depan : 来月 (Raigetsu)
+Tahun Depan : 来年 (Rainen)
+3 hari akan datang: 三日後 (Mikkago)
+2 bulan akan datang: 二か月後 (Nikagetsugo)
+2 tahun akan datang: 二年後 (Ninengo)
+
+Waktu Yang Telah Berlalu:
+Kemarin : 昨日 (Kinou)
+Kemarin Lusa : 一昨日 (Ototoi)
+Minggu Lalu : 先週 (Senshuu)
+Bulan Lalu : 先月 (Sengetsu)
+Tahun Lalu : 去年 (Kyonen)
+3 hari lalu: 三日前 (Mikka mae)
+2 bulan lalu: 二か月前 (Nikagetsumae)
+2 tahun lalu: 二年前 (Ninenmae)
+
+Jam:
+1:00 - 一時 (ichiji)
+2:00 - 二時 (niji)
+3:00 - 三時 (sanji)
+4:00 - 四時 (yoji)
+5:00 - 五時 (goji)
+6:00 - 六時 (rokuji)
+7:00 - 七時 (shichiji/nanaji)
+8:00 - 八時 (hachiji)
+9:00 - 九時 (kuji)
+10:00 - 十時 (juuji)
+
+Menit:
+1 menit - 1分 (ippun)
+2 menit - 2分 (nifun)
+3 menit - 3分 (sanpun)
+4 menit - 4分 (yonpun)
+5 menit - 5分 (gofun)
+6 menit - 6分 (roppun)
+7 menit - 7分 (nanafun)
+8 menit - 8分 (happun)
+9 menit - 9分 (kyuufun)
+10 menit - 10分 (juppun)
+11 menit - 11分 (juuippun)
+12 menit - 12分 (juunifun)
+13 menit - 13分 (juusanpun)
+14 menit - 14分 (juuyonpun)
+15 menit - 15分 (juugofun)
+16 menit - 16分 (juuroppun)
+17 menit - 17分 (juunanafun)
+18 menit - 18分 (juuhappun)
+19 menit - 19分 (juukyuufun)
+20 menit - 20分 (nijuppun)
+
+Jam dan Menit:
+1:15 - 一時十五分 (ichiji juugo-fun)
+2:30 - 二時半 (niji han)
+3:45 - 三時四十五分 (sanji yonjyuu-go-fun)
+4:05 - 四時五分 (yoji go-fun)
+6:20 - 六時二十分 (rokuji nijuu-fun)
+8:55 - 八時五十五分 (hachiji gojyuu-go-fun)
+
+

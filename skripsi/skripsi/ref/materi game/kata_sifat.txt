@@ -1,0 +1,109 @@
+Dalam bahasa Jepang, kata sifat atau "keiyoushi" (形容詞) adalah kata yang digunakan untuk menggambarkan atau memberikan deskripsi tentang sebuah benda, keadaan, atau orang. Kata sifat ini memiliki beberapa karakteristik yang berbeda dari kata sifat dalam bahasa lain:
+
+Karakteristik Morfologis: Kata sifat dalam bahasa Jepang tidak memiliki perubahan bentuk untuk menyesuaikan dengan kata benda yang dijelaskan. Artinya, kata sifat tetap dalam bentuk dasarnya tidak peduli apakah digunakan dengan kata benda tunggal atau jamak, baik itu dalam bentuk positif, negatif, atau bentuk waktu lainnya.
+
+Berperan Sebagai Predikat: Kata sifat dapat berfungsi sebagai predikat dalam kalimat. Dalam hal ini, kata sifat tersebut biasanya diikuti oleh partikel "desu" untuk membuat kalimat menjadi formal.
+
+Contoh kata sifat dalam bahasa Jepang:
+
+Dingin - 寒い (samui)
+Bentuk Dasar: 寒い (samui)
+Contoh Penggunaan: 今日の天気はとても寒いです (Kyou no tenki wa totemo samui desu) - Hari ini cuacanya sangat dingin.
+
+Panas - 暑い (atsui)
+Bentuk Dasar: 暑い (atsui)
+Contoh Penggunaan: 日本の夏はとても暑いです (Nihon no natsu wa totemo atsui desu) - Musim panas di Jepang sangat panas. 
+
+Tinggi/mahal - 高い (takai)
+Bentuk Dasar: 高い (takai)
+Contoh Penggunaan: あの車の値段はとても高いです (Ano kuruma no nedan wa totemo takai desu) - Harga mobil itu sangat mahal. 
+
+Murah - 安い (yasui)
+Bentuk Dasar: 安い (yasui)
+Contoh Penggunaan: その本の値段はとても安いです (Sono hon no nedan wa totemo yasui desu) - Harga buku itu sangat murah. 
+
+Indah - 美しい (utsukushii)
+Bentuk Dasar: 美しい (utsukushii)
+Contoh Penggunaan: 富士山の景観はとても美しいです (Fuji-san no keikan wa totemo utsukushii desu) - Pemandangan gunung Fuji sangat indah. 
+
+Tenang - 静か (shizuka)
+Bentuk Dasar: 静か (shizuka)
+Contoh Penggunaan: 図書館はとても静かです (Toshokan wa totemo shizuka desu) - Di perpustakaan sangat tenang. 
+
+Sibuk - 忙しい (isogashii)
+Bentuk Dasar: 忙しい (isogashii)
+Contoh Penggunaan: 私は仕事でとても忙しいです (Watashi wa shigoto de totemo isogashii desu) - Saya sangat sibuk dengan pekerjaan. 
+
+Senang - 嬉しい (ureshii)
+Bentuk Dasar: 嬉しい (ureshii)
+Contoh Penggunaan: 私はそれを聞くとても嬉しいです (Watashi wa sore o kiku totemo ureshii desu) - Saya senang mendengar kabar baik itu. 
+
+Sedih - 悲しい (kanashii)
+Bentuk Dasar: 悲しい (kanashii)
+Contoh Penggunaan: 彼は猫を失ってとても悲しいです (Kare wa neko o nakushite totemo kanashii desu) - Dia sedih karena kehilangan kucingnya.
+
+Baru - 新しい (atarashii)
+Bentuk Dasar: 新しい (atarashii)
+Contoh Penggunaan: 今私は新しい車を持っています (Ima watashi wa atarashii kuruma o motte imasu) - Saya memiliki mobil baru sekarang. 
+
+Cantik - 綺麗 (kirei)
+Bentuk Dasar: 綺麗 (kirei)
+Contoh Penggunaan: 彼女はその赤いドレスがとても綺麗です (Kanojo wa sono akai doresu ga totemo kirei desu) - Dia sangat cantik dengan gaun merah itu. 
+
+Tampan - ハンサム (hansamu)
+Bentuk Dasar: ハンサム (hansamu) [kata serapan dari bahasa Inggris]
+Contoh Penggunaan: 彼は黒いスーツがとてもハンサムです (Kare wa kuroi suiitsu ga totemo hansamu desu) - Dia sangat tampan dengan jas hitamnya. 
+
+Warna - 色 (iro)
+Bentuk Dasar: 色 (iro)
+Contoh Penggunaan: 朝の空の色はとても美しいです (Asa no sora no iro wa totemo utsukushii desu) - Warna langit di pagi hari sangat indah. 
+
+Merah - 赤い (akai)
+Bentuk dasar: 赤 (aka)
+Contoh penggunaan: そのリンゴは赤いです (Sono ringo wa akai desu) - Apel itu merah.
+
+Biru - 青い (aoi)
+Bentuk dasar: 青 (ao)
+Contoh penggunaan: 海は青いです (Umi wa aoi desu) - Laut itu biru.
+
+Hijau - 緑 (midori)
+Bentuk dasar: 緑 (midori)
+Contoh penggunaan: その草は緑です (Sono kusa wa midori desu) - Rumput itu hijau.
+
+Kuning - 黄色い (kiiro)
+Bentuk dasar: 黄 (ki)
+Contoh penggunaan: そのバナナは黄色です (Sono banana wa kiiro desu) - Pisang itu kuning.
+
+Hitam - 黒い (kuroi)
+Bentuk dasar: 黒 (kuro)
+Contoh penggunaan: 夜空は黒いです (Yozora wa kuroi desu) - Langit malam itu hitam.
+
+Putih - 白い (shiroi)
+Bentuk dasar: 白 (shiro)
+Contoh penggunaan: 雲は白いです (Kumo wa shiroi desu) - Awan itu putih.
+
+Ungu - 紫 (murasaki)
+Bentuk dasar: 紫 (murasaki)
+Contoh penggunaan: あの花は紫です (Ano hana wa murasaki desu) - Bunga itu ungu.
+
+Oranye - オレンジ (orenji)
+Bentuk dasar: オレンジ (orenji)
+Contoh penggunaan: そのカボチャはオレンジ色です (Sono kabocha wa orenji iro desu) - Labu itu oranye.
+
+Abu-abu - 灰色 (haiiro)
+Bentuk dasar: 灰 (hai)
+Contoh penggunaan: 彼の車は灰色です (Kare no kuruma wa haiiro desu) - Mobilnya abu-abu.
+
+Pink - ピンク (pinku)
+Bentuk dasar: ピンク (pinku)
+Contoh penggunaan: 彼女のドレスはピンク色です (Kanojo no doresu wa pinku iro desu) - Gaunnya berwarna pink.
+
+Terang - 明るい (akarui)
+Bentuk Dasar: 明るい (akarui)
+Contoh Penggunaan: あの部屋の電気はとても明るいです (Ano heya no denki wa totemo akarui desu) - Lampu di ruangan itu sangat terang. 
+
+Lucu - 可愛い (kawaii)
+Bentuk Dasar: 可愛い (kawaii)
+Contoh Penggunaan: 小さな犬はとても可愛いです (Chiisana inu wa totemo kawaii desu) - Anjing kecil itu sangat lucu. 
+
+

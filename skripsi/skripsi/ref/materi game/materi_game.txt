@@ -1,0 +1,34 @@
+Huruf:
+- Hiragana
+- Katakana
+
+Angka:
+- Angka Dasar
+
+Waktu:
+- Waktu Umum
+- Hari
+- Bulan
+- Tahun
+
+Kata Benda:
+- Nama Musim
+- Nama Cuaca
+- Nama Hewan
+- Nama Tempat
+
+Kata Kerja:
+- Kata Kerja Umum
+- Pola Kalimat Dasar
+
+Kata Sifat:
+- warna
+- Kata Sifat
+- Ekspresi Sifat Seseorang atau Sesuatu
+
+Perkenalan Diri:
+- Nama
+- Umur
+- Asal
+- Pekerjaan
+- Hobi

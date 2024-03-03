@@ -1,0 +1,42 @@
+Huruf Hiragana Jepang terdiri dari 104 huruf, yaitu: 46 huruf dasar あ (a) sampai ん (n), 20 huruf teng-teng (") yang disebut dengan Dakuon, 5 huruf maru (o) yang disebut dengan Handakuon, dan 33 huruf dengan kombinasi ゃ (ya) - ゅ (yu) - ょ (yo) kecil yang disebut dengan Youon. 
+
+Hiragana merupakan salah satu dari dua aksara Jepang yang berperan dalam menulis kata-kata asli Jepang, partikel, dan akhiran kata. Digunakan untuk membaca dan menyusun kalimat, Hiragana juga dipakai dalam penulisan nama pribadi dan tempat yang tidak memiliki karakter Kanji khusus. Sebagai bagian dari sistem penulisan Jepang yang kompleks, bersama dengan Katakana dan Kanji, Hiragana memainkan peran penting dalam memberikan ekspresi dan fleksibilitas dalam penulisan bahasa Jepang.
+
+Tekan kartu huruf untuk menampilkan langkah-langkah cara penulisannya.
+
+Dakuon (20 Huruf):
+Dakuon adalah huruf hiragana yang memiliki tambahan dakuten di bagian kanan atas huruf. Tanda baca tambahan ini berbentuk seperti dua buah garis kecil yang serong dari kiri atas ke kanan bawah (") dan disebut dakuten.
+Contohnya:
+か (ka) + Dakuon = が (ga)
+
+Berikut adalah huruf lengkapnya:
+が (ga), ぎ (gi), ぐ (gu), げ (ge), ご (go)
+ざ (za), じ (ji), ず (zu), ぜ (ze), ぞ (zo)
+だ (da), ぢ (ji/dji), づ (dzu), で (de), ど (do)
+ば (ba), び (bi), ぶ (bu), べ (be), ぼ (bo)
+
+Handakuon (5 Huruf):
+Handakuon adalah huruf hiragana yang memiliki tanda baca tambahan di bagian kanan atas huruf. Tanda baca tambahan ini berbentuk seperti lingkaran kecil (゜) dan disebut handakuten.
+Contohnya:
+は (ha) + Handakuon = ぱ (pa)
+
+Berikut adalah huruf lengkapnya:
+ぱ (pa), ぴ (pi), ぷ (pu), ぺ (pe), ぽ (po)
+
+Youon (33 Huruf):
+Youon adalah kombinasi dari huruf kecil ya (ゃ), yu (ゅ), dan yo (ょ) dengan huruf dasar yang lain. 
+Contohnya:
+き (ki) + Youon ya = きゃ (kya)
+
+Berikut adalah huruf lengkapnya:
+きゃ (kya), きゅ (kyu), きょ (kyo)
+しゃ (sha), しゅ (shu), しょ (sho)
+ちゃ (cha), ちゅ (chu), ちょ (cho)
+にゃ (nya), にゅ (nyu), にょ (nyo)
+ひゃ (hya), ひゅ (hyu), ひょ (hyo)
+みゃ (mya), みゅ (myu), みょ (myo)
+りゃ (rya), りゅ (ryu), りょ (ryo)
+ぎゃ (gya), ぎゅ (gyu), ぎょ (gyo)
+じゃ (ja), じゅ (ju), じょ (jo)
+びゃ (bya), びゅ (byu), びょ (byo)
+ぴゃ (pya), ぴゅ (pyu), ぴょ (pyo)
