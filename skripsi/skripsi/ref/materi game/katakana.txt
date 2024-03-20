@@ -1,6 +1,12 @@
 Katakana adalah aksara Jepang yang memiliki beberapa fungsi utama, termasuk menulis kata-kata asing, nama asing, mengekspresikan suara atau onomatopeia, memberikan penekanan dalam teks, digunakan dalam desain grafis, dan sebagai alat untuk memberikan keterangan atau terjemahan singkat. Aksara ini memainkan peran penting dalam memfasilitasi penulisan kata-kata asing dan memberikan variasi dalam penulisan teks Jepang.
 
-Tekan kartu huruf untuk menampilkan langkah-langkah cara penulisannya.
+Berikut adalah 26 huruf Katakana dasar:
+ア (a)		イ (i)		ウ (u)		エ (e)		オ (o)
+カ (ka)	キ (ki)		ク (ku)	ケ (ke)	コ (ko)
+サ (sa)	シ (shi)	ス (su)	セ (se)	ソ (so)
+タ (ta)	チ (chi)	ツ (tsu)	テ (te)	ト (to)
+ナ (na)	ニ (ni)	ヌ (nu)	ネ (ne)	ノ (no)
+ハ (ha)	ヒ (hi)	フ (fu)	ヘ (he)	ホ (ho)
 
 Dakuon (20 Huruf):
 Dakuon adalah huruf katakana yang memiliki tambahan dakuten di bagian kanan atas huruf. Tanda baca tambahan ini berbentuk seperti dua buah garis kecil yang serong dari kiri atas ke kanan bawah (") dan disebut dakuten.

@@ -19,7 +19,7 @@ Contoh penggunaan: なぜ彼は遅れていますか？ (Naze kare wa okurete im
 Bagaimana - どう (dou)
 Contoh penggunaan: この機械を使う方法はどうですか？ (Kono kikai o tsukau houhou wa dou desu ka?) - Bagaimana cara menggunakan mesin ini?
 
-Berapa - いくつ (ikutsu)
+Berapa - いくら (ikura)
 Contoh penggunaan: その本はいくらですか？ (Sono hon wa ikura desu ka?) - Berapa harga buku itu?
 
 Berapa lama - どのくらい (donokurai)
