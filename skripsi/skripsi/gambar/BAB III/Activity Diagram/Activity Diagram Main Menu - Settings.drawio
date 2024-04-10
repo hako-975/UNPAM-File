@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" modified="2024-04-10T13:56:07.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="dOgs1MctpfafLNPizGwD" version="24.2.2" type="device">
+  <diagram id="FoW0NhkRNFs8L6AiQfCd" name="Halaman-1">
+    <mxGraphModel dx="607" dy="299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ot3S0epjnxDfbkrlAxVJ-14" value="Pengguna" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="50" y="40" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Ot3S0epjnxDfbkrlAxVJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Ot3S0epjnxDfbkrlAxVJ-14" source="Ot3S0epjnxDfbkrlAxVJ-16" target="Ot3S0epjnxDfbkrlAxVJ-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ot3S0epjnxDfbkrlAxVJ-16" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="Ot3S0epjnxDfbkrlAxVJ-14" vertex="1">
+          <mxGeometry x="80" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ot3S0epjnxDfbkrlAxVJ-17" value="Menekan Tombol&lt;div&gt;Settings&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="Ot3S0epjnxDfbkrlAxVJ-14" vertex="1">
+          <mxGeometry x="35" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ot3S0epjnxDfbkrlAxVJ-19" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="250" y="40" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Ot3S0epjnxDfbkrlAxVJ-20" value="Menampilkan Panel Settings" style="whiteSpace=wrap;html=1;rounded=1;" parent="Ot3S0epjnxDfbkrlAxVJ-19" vertex="1">
+          <mxGeometry x="40" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ot3S0epjnxDfbkrlAxVJ-21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="Ot3S0epjnxDfbkrlAxVJ-19" vertex="1">
+          <mxGeometry x="85" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ot3S0epjnxDfbkrlAxVJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="Ot3S0epjnxDfbkrlAxVJ-19" source="Ot3S0epjnxDfbkrlAxVJ-20" target="Ot3S0epjnxDfbkrlAxVJ-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99.99999999999989" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ot3S0epjnxDfbkrlAxVJ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Ot3S0epjnxDfbkrlAxVJ-17" target="Ot3S0epjnxDfbkrlAxVJ-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170.0285714285714" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
