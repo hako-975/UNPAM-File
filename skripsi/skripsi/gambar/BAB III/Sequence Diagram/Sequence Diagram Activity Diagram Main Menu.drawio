@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T10:26:50.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GsKzJmrDEgstuQrIiS3h" version="24.2.5" type="device">
+<mxfile host="app.diagrams.net" modified="2024-04-22T04:46:41.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qWNT0iOazu-1grohucTA" version="24.2.5" type="device">
   <diagram id="RAGtzLFKwbdUckXWn4iN" name="Halaman-1">
-    <mxGraphModel dx="503" dy="1436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="419" dy="1392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="170" y="40" width="20" height="300" as="geometry" />
         </mxCell>
         <mxCell id="cGDwaTatzxDNPmwoPCMb-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="cGDwaTatzxDNPmwoPCMb-3" vertex="1">
-          <mxGeometry x="5" y="69" width="10" height="121" as="geometry" />
+          <mxGeometry x="5" y="69" width="10" height="81" as="geometry" />
         </mxCell>
         <mxCell id="cGDwaTatzxDNPmwoPCMb-4" value="&lt;div&gt;Pengguna&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="10" width="80" height="30" as="geometry" />
@@ -17,21 +17,21 @@
           <mxGeometry x="350" y="40" width="50" height="300" as="geometry" />
         </mxCell>
         <mxCell id="cGDwaTatzxDNPmwoPCMb-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="cGDwaTatzxDNPmwoPCMb-6" vertex="1">
-          <mxGeometry x="20" y="69" width="10" height="121" as="geometry" />
+          <mxGeometry x="20" y="69" width="10" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="cGDwaTatzxDNPmwoPCMb-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="cGDwaTatzxDNPmwoPCMb-6" vertex="1">
-          <mxGeometry x="25" y="130" width="10" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="cGDwaTatzxDNPmwoPCMb-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;2. Menampilkan &lt;br&gt;Scene Main Menu()&lt;/font&gt;" style="html=1;align=center;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="cGDwaTatzxDNPmwoPCMb-6" edge="1">
-          <mxGeometry x="-0.3937" y="19" relative="1" as="geometry">
-            <mxPoint x="30" y="111" as="sourcePoint" />
+        <mxCell id="cGDwaTatzxDNPmwoPCMb-12" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="cGDwaTatzxDNPmwoPCMb-6" target="cGDwaTatzxDNPmwoPCMb-11" edge="1" source="cGDwaTatzxDNPmwoPCMb-8">
+          <mxGeometry x="-1" y="22" relative="1" as="geometry">
+            <mxPoint x="30" y="102" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="100" y="111" />
-              <mxPoint x="100" y="141" />
+              <mxPoint x="120" y="102" />
+              <mxPoint x="120" y="132" />
             </Array>
-            <mxPoint x="35" y="141" as="targetPoint" />
+            <mxPoint x="35" y="132" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cGDwaTatzxDNPmwoPCMb-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="cGDwaTatzxDNPmwoPCMb-6" vertex="1">
+          <mxGeometry x="24" y="120" width="10" height="24" as="geometry" />
         </mxCell>
         <mxCell id="cGDwaTatzxDNPmwoPCMb-7" value="&lt;div&gt;Scene Main Menu&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="315" y="10" width="120" height="30" as="geometry" />
@@ -39,22 +39,18 @@
         <mxCell id="cGDwaTatzxDNPmwoPCMb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" parent="1" source="cGDwaTatzxDNPmwoPCMb-5" target="cGDwaTatzxDNPmwoPCMb-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cGDwaTatzxDNPmwoPCMb-10" value="1. Membuka Aplikasi()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cGDwaTatzxDNPmwoPCMb-9" vertex="1" connectable="0">
+        <mxCell id="cGDwaTatzxDNPmwoPCMb-10" value="1. Membuka Aplikasi()" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="cGDwaTatzxDNPmwoPCMb-9" vertex="1" connectable="0">
           <mxGeometry x="-0.3304" y="1" relative="1" as="geometry">
-            <mxPoint x="15" y="-7" as="offset" />
+            <mxPoint x="-27" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sXo3k42NuzA3aXe08pG-1" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;2. Menampilkan&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Scene&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Main Menu()&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cGDwaTatzxDNPmwoPCMb-9">
+          <mxGeometry x="-0.3304" y="1" relative="1" as="geometry">
+            <mxPoint x="134" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cGDwaTatzxDNPmwoPCMb-13" value="Sequence Diagram Main Menu" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=180;height=20;align=left;" parent="1" vertex="1">
-          <mxGeometry x="130" y="-20" width="370" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="KvFzPLrea7IAIOohUTBP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="185" y="209" as="sourcePoint" />
-            <mxPoint x="370" y="209" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KvFzPLrea7IAIOohUTBP-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;3. Memilih Beberapa Menu Pilihan()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="185" y="185" width="180" height="30" as="geometry" />
+          <mxGeometry x="132" y="-20" width="368" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
