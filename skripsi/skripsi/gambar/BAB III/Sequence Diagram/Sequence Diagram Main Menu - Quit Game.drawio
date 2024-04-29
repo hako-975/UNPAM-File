@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T01:12:20.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="9mM1GEDYVXol7imYNaF3" version="24.2.7" type="device">
+<mxfile host="app.diagrams.net" modified="2024-04-29T00:45:15.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qVIECclVBldexlS17g0P" version="24.2.8" type="device">
   <diagram id="RAGtzLFKwbdUckXWn4iN" name="Halaman-1">
-    <mxGraphModel dx="503" dy="267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="607" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="190" y="55" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K_lp6_0wbMEvAcMGEVY7-75" value="Sequence Diagram Main Menu - Quit Game" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=250;height=20;align=left;" parent="1" vertex="1">
-          <mxGeometry x="170" y="30" width="370" height="360" as="geometry" />
+          <mxGeometry x="170" y="30" width="370" height="270" as="geometry" />
         </mxCell>
         <mxCell id="OxrHae_57oYZ9077EPSq-15" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" parent="1" vertex="1">
           <mxGeometry x="387" y="90" width="50" height="339" as="geometry" />
@@ -81,7 +81,7 @@
         <mxCell id="fkkqWJSYbEHI7g0LPWqD-7" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;4. Menampilkan&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Panel Quit Game()&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="421.99999999999994" y="222" as="geometry" />
         </mxCell>
-        <mxCell id="gAyzbUfRb_bO8RhOZKSB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="OxrHae_57oYZ9077EPSq-14" target="fkkqWJSYbEHI7g0LPWqD-5">
+        <mxCell id="gAyzbUfRb_bO8RhOZKSB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="OxrHae_57oYZ9077EPSq-14" target="fkkqWJSYbEHI7g0LPWqD-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="370" y="270" />
@@ -89,7 +89,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gAyzbUfRb_bO8RhOZKSB-2" value="5. Menekan Tombol Quit Game()" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="gAyzbUfRb_bO8RhOZKSB-2" value="5. Menekan Tombol Quit Game()" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="237.99666666666656" y="259.9999999999998" as="geometry" />
         </mxCell>
       </root>
