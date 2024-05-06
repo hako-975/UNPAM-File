@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T01:02:27.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_DIjsTx7fJ8rYBcBS-FX" version="24.2.8" type="device">
+<mxfile host="app.diagrams.net" modified="2024-05-05T10:30:00.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="5pw9AIjrMFe4mpDpu4PK" version="24.3.1" type="device">
   <diagram id="RAGtzLFKwbdUckXWn4iN" name="Halaman-1">
-    <mxGraphModel dx="503" dy="267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="419" dy="207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="K_lp6_0wbMEvAcMGEVY7-65" value="&lt;div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" parent="1" vertex="1">
-          <mxGeometry x="220" y="90" width="20" height="340" as="geometry" />
+          <mxGeometry x="220" y="75" width="20" height="340" as="geometry" />
         </mxCell>
         <mxCell id="OxrHae_57oYZ9077EPSq-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="K_lp6_0wbMEvAcMGEVY7-65" vertex="1">
           <mxGeometry x="5" y="52" width="10" height="138" as="geometry" />
         </mxCell>
         <mxCell id="K_lp6_0wbMEvAcMGEVY7-67" value="&lt;div&gt;Pengguna&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="190" y="55" width="80" height="30" as="geometry" />
+          <mxGeometry x="190" y="47" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K_lp6_0wbMEvAcMGEVY7-75" value="Sequence Diagram Start Game - Gameplay" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=250;height=20;align=left;" parent="1" vertex="1">
-          <mxGeometry x="170" y="30" width="370" height="270" as="geometry" />
+          <mxGeometry x="190" y="30" width="340" height="250" as="geometry" />
         </mxCell>
         <mxCell id="OxrHae_57oYZ9077EPSq-15" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" parent="1" vertex="1">
-          <mxGeometry x="387" y="90" width="50" height="339" as="geometry" />
+          <mxGeometry x="387" y="75" width="50" height="339" as="geometry" />
         </mxCell>
         <mxCell id="OxrHae_57oYZ9077EPSq-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="OxrHae_57oYZ9077EPSq-15" vertex="1">
           <mxGeometry x="20" y="51" width="10" height="141" as="geometry" />
@@ -48,13 +48,12 @@
           <mxGeometry x="24" y="164" width="10" height="24" as="geometry" />
         </mxCell>
         <mxCell id="OxrHae_57oYZ9077EPSq-19" value="&lt;div&gt;Scene Gameplay&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="352" y="55" width="120" height="30" as="geometry" />
+          <mxGeometry x="352" y="47" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OxrHae_57oYZ9077EPSq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" parent="1" source="OxrHae_57oYZ9077EPSq-14" target="OxrHae_57oYZ9077EPSq-16" edge="1">
+        <mxCell id="OxrHae_57oYZ9077EPSq-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="235" y="146" />
-            </Array>
+            <mxPoint x="235" y="134" as="sourcePoint" />
+            <mxPoint x="407" y="133" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OxrHae_57oYZ9077EPSq-21" value="1. Menekan Tombol Start()" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="OxrHae_57oYZ9077EPSq-20" vertex="1" connectable="0">
@@ -64,22 +63,24 @@
         </mxCell>
         <mxCell id="OxrHae_57oYZ9077EPSq-22" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;2. Menampilkan&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Scene&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Gameplay()&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="OxrHae_57oYZ9077EPSq-20" vertex="1" connectable="0">
           <mxGeometry x="-0.3304" y="1" relative="1" as="geometry">
-            <mxPoint x="128" y="12" as="offset" />
+            <mxPoint x="127" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OxrHae_57oYZ9077EPSq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="OxrHae_57oYZ9077EPSq-14" target="OxrHae_57oYZ9077EPSq-18" edge="1">
+        <mxCell id="OxrHae_57oYZ9077EPSq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="217" />
-              <mxPoint x="280" y="217" />
+              <mxPoint x="280" y="206" />
+              <mxPoint x="280" y="206" />
             </Array>
+            <mxPoint x="235" y="205.99999999999994" as="sourcePoint" />
+            <mxPoint x="411" y="205.99999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OxrHae_57oYZ9077EPSq-25" value="3. Meng-control Joystick / Action()" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="234.99666666666656" y="207.99999999999977" as="geometry" />
+          <mxGeometry x="234.99666666666656" y="196.99999999999977" as="geometry" />
         </mxCell>
         <mxCell id="fkkqWJSYbEHI7g0LPWqD-7" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;4. Menjalankan Aksi&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;()&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="421.99999999999994" y="226" as="geometry" />
+          <mxGeometry x="421.99999999999994" y="212" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
