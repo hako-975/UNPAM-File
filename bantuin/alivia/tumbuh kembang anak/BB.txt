@@ -1,0 +1,6 @@
+Gizi buruk (severely wasted) <-3 SD 
+Gizi kurang (wasted) - 3 SD sd <- 2 SD 
+Gizi baik (normal) -2 SD sd +1 SD 
+Berisiko gizi lebih (possible risk of overweight) > + 1 SD sd + 2 SD
+Gizi lebih (overweight) > + 2 SD sd + 3 SD
+Obesitas (obese) > + 3 SD
