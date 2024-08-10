@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram id="Z08eTgGWAjNeXDMgQ9Qe" name="Halaman-1">
+    <mxGraphModel dx="607" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qkGCgfdNhCn7gsHB5-3L-1" value="Admin" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="50" y="40" width="200" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="qkGCgfdNhCn7gsHB5-3L-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qkGCgfdNhCn7gsHB5-3L-1" source="qkGCgfdNhCn7gsHB5-3L-3" target="qkGCgfdNhCn7gsHB5-3L-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qkGCgfdNhCn7gsHB5-3L-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="qkGCgfdNhCn7gsHB5-3L-1" vertex="1">
+          <mxGeometry x="80" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qkGCgfdNhCn7gsHB5-3L-4" value="Membuka Project JepangCita di Unity Hub" style="rounded=1;whiteSpace=wrap;html=1;" parent="qkGCgfdNhCn7gsHB5-3L-1" vertex="1">
+          <mxGeometry x="35" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AblLl-0Yq9BwSg_snq3w-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qkGCgfdNhCn7gsHB5-3L-1" source="vkcGki8KC0y3EEtt56Kg-1" target="AblLl-0Yq9BwSg_snq3w-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vkcGki8KC0y3EEtt56Kg-1" value="Melakukan Pembaharuan" style="whiteSpace=wrap;html=1;rounded=1;" parent="qkGCgfdNhCn7gsHB5-3L-1" vertex="1">
+          <mxGeometry x="35" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AblLl-0Yq9BwSg_snq3w-1" value="Menekan tombol build" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="qkGCgfdNhCn7gsHB5-3L-1">
+          <mxGeometry x="35" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AblLl-0Yq9BwSg_snq3w-5" value="Mengunggah file .aab ke Google Play Console" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="qkGCgfdNhCn7gsHB5-3L-1">
+          <mxGeometry x="35" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkGCgfdNhCn7gsHB5-3L-5" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="250" y="40" width="200" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="qkGCgfdNhCn7gsHB5-3L-6" value="Menampilkan Project JepangCita" style="whiteSpace=wrap;html=1;rounded=1;" parent="qkGCgfdNhCn7gsHB5-3L-5" vertex="1">
+          <mxGeometry x="44" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GyJORlyUVd17cj6H3Q-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="qkGCgfdNhCn7gsHB5-3L-5" vertex="1">
+          <mxGeometry x="85" y="530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AblLl-0Yq9BwSg_snq3w-3" value="Mem-build project ke file .aab" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="qkGCgfdNhCn7gsHB5-3L-5">
+          <mxGeometry x="40" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AblLl-0Yq9BwSg_snq3w-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qkGCgfdNhCn7gsHB5-3L-5" source="AblLl-0Yq9BwSg_snq3w-7" target="m9GyJORlyUVd17cj6H3Q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AblLl-0Yq9BwSg_snq3w-7" value="Memperbaharui aplikasi di Google Play Store" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="qkGCgfdNhCn7gsHB5-3L-5">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkGCgfdNhCn7gsHB5-3L-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qkGCgfdNhCn7gsHB5-3L-4" target="qkGCgfdNhCn7gsHB5-3L-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170.0285714285714" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vkcGki8KC0y3EEtt56Kg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qkGCgfdNhCn7gsHB5-3L-6" target="vkcGki8KC0y3EEtt56Kg-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AblLl-0Yq9BwSg_snq3w-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AblLl-0Yq9BwSg_snq3w-1" target="AblLl-0Yq9BwSg_snq3w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AblLl-0Yq9BwSg_snq3w-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AblLl-0Yq9BwSg_snq3w-3" target="AblLl-0Yq9BwSg_snq3w-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AblLl-0Yq9BwSg_snq3w-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AblLl-0Yq9BwSg_snq3w-5" target="AblLl-0Yq9BwSg_snq3w-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
