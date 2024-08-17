@@ -1,52 +1,54 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="Z08eTgGWAjNeXDMgQ9Qe" name="Halaman-1">
-    <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="607" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qkGCgfdNhCn7gsHB5-3L-1" value="Admin / Mahasiswa" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
-          <mxGeometry x="50" y="40" width="200" height="500" as="geometry" />
+          <mxGeometry x="50" y="40" width="170" height="430" as="geometry" />
         </mxCell>
         <mxCell id="qkGCgfdNhCn7gsHB5-3L-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qkGCgfdNhCn7gsHB5-3L-1" source="qkGCgfdNhCn7gsHB5-3L-3" target="qkGCgfdNhCn7gsHB5-3L-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qkGCgfdNhCn7gsHB5-3L-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="qkGCgfdNhCn7gsHB5-3L-1" vertex="1">
-          <mxGeometry x="80" y="40" width="30" height="30" as="geometry" />
+          <mxGeometry x="70" y="40" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qkGCgfdNhCn7gsHB5-3L-4" value="Menekan Tombol&lt;div&gt;Quit Game&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="qkGCgfdNhCn7gsHB5-3L-1" vertex="1">
-          <mxGeometry x="35" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="25" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vkcGki8KC0y3EEtt56Kg-1" value="Memilih Tombol Yang Ingin Dipilih" style="whiteSpace=wrap;html=1;rounded=1;" parent="qkGCgfdNhCn7gsHB5-3L-1" vertex="1">
-          <mxGeometry x="35" y="232" width="120" height="60" as="geometry" />
+        <mxCell id="vkcGki8KC0y3EEtt56Kg-1" value="Memilih Tombol Konfirmasi" style="whiteSpace=wrap;html=1;rounded=1;" parent="qkGCgfdNhCn7gsHB5-3L-1" vertex="1">
+          <mxGeometry x="25" y="185" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qkGCgfdNhCn7gsHB5-3L-5" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="1" vertex="1">
-          <mxGeometry x="250" y="40" width="200" height="500" as="geometry" />
+          <mxGeometry x="220" y="40" width="180" height="430" as="geometry" />
         </mxCell>
         <mxCell id="qkGCgfdNhCn7gsHB5-3L-6" value="Menampilkan Panel Quit Game" style="whiteSpace=wrap;html=1;rounded=1;" parent="qkGCgfdNhCn7gsHB5-3L-5" vertex="1">
-          <mxGeometry x="40" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="25" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qkGCgfdNhCn7gsHB5-3L-7" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="qkGCgfdNhCn7gsHB5-3L-5" vertex="1">
-          <mxGeometry x="85" y="448" width="30" height="30" as="geometry" />
+          <mxGeometry x="75" y="390" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vkcGki8KC0y3EEtt56Kg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qkGCgfdNhCn7gsHB5-3L-5" source="vkcGki8KC0y3EEtt56Kg-5" target="qkGCgfdNhCn7gsHB5-3L-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="262" />
-              <mxPoint x="180" y="430" />
-              <mxPoint x="100" y="430" />
+              <mxPoint x="163" y="215" />
+              <mxPoint x="163" y="370" />
+              <mxPoint x="90" y="370" />
             </Array>
+            <mxPoint x="133" y="215" as="sourcePoint" />
+            <mxPoint x="88" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vkcGki8KC0y3EEtt56Kg-23" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vkcGki8KC0y3EEtt56Kg-9" vertex="1" connectable="0">
           <mxGeometry x="-0.8771" y="3" relative="1" as="geometry">
-            <mxPoint x="-1" y="1" as="offset" />
+            <mxPoint x="-2" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vkcGki8KC0y3EEtt56Kg-5" value="Menekan Tombol Quit Game?" style="rhombus;whiteSpace=wrap;html=1;" parent="qkGCgfdNhCn7gsHB5-3L-5" vertex="1">
-          <mxGeometry x="55" y="217" width="90" height="90" as="geometry" />
+          <mxGeometry x="40" y="170" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vkcGki8KC0y3EEtt56Kg-17" value="Menutup Panel Quit Game" style="whiteSpace=wrap;html=1;rounded=1;" parent="qkGCgfdNhCn7gsHB5-3L-5" vertex="1">
-          <mxGeometry x="40" y="342" width="120" height="60" as="geometry" />
+          <mxGeometry x="25" y="295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vkcGki8KC0y3EEtt56Kg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qkGCgfdNhCn7gsHB5-3L-5" source="vkcGki8KC0y3EEtt56Kg-5" target="vkcGki8KC0y3EEtt56Kg-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +64,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vkcGki8KC0y3EEtt56Kg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qkGCgfdNhCn7gsHB5-3L-6" target="vkcGki8KC0y3EEtt56Kg-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="200" />
+              <mxPoint x="135" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="vkcGki8KC0y3EEtt56Kg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vkcGki8KC0y3EEtt56Kg-1" target="vkcGki8KC0y3EEtt56Kg-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
