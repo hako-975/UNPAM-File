@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "praktikum_2/1.0.0": {
+        "runtime": {
+          "praktikum_2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "praktikum_2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
