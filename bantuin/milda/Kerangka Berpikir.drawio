@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Halaman-1" id="aulTIhXoQMPYBFRONI1B">
+    <mxGraphModel dx="2435" dy="1514" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-16" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="kS4c9vpTqhQJPgcnS-w6-14" target="kS4c9vpTqhQJPgcnS-w6-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1019" y="-296" />
+              <mxPoint x="-1019" y="-102" />
+              <mxPoint x="-552" y="-100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="-468" width="148" height="343" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kS4c9vpTqhQJPgcnS-w6-2" target="kS4c9vpTqhQJPgcnS-w6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-2" value="&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:&lt;br/&gt;11.0pt;line-height:106%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&lt;br/&gt;&amp;quot;Yu Mincho&amp;quot;;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:IN;mso-fareast-language:JA;mso-bidi-language:AR-SA;&lt;br/&gt;mso-no-proof:yes&quot; lang=&quot;IN&quot;&gt;Earnings Management&lt;/span&gt;&lt;/i&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(X&lt;sub&gt;1&lt;/sub&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-885" y="-460" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kS4c9vpTqhQJPgcnS-w6-3" target="kS4c9vpTqhQJPgcnS-w6-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-612.7931034482758" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-3" value="&lt;div&gt;&lt;i&gt;&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:&lt;br/&gt;11.0pt;line-height:106%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&lt;br/&gt;&amp;quot;Yu Mincho&amp;quot;;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:IN;mso-fareast-language:JA;mso-bidi-language:AR-SA;&lt;br/&gt;mso-no-proof:yes&quot; lang=&quot;IN&quot;&gt;Tax Planning&amp;nbsp;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;(X&lt;sub&gt;2&lt;/sub&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-885" y="-350" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="kS4c9vpTqhQJPgcnS-w6-5" target="kS4c9vpTqhQJPgcnS-w6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-5" value="&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:&lt;br/&gt;11.0pt;line-height:106%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&lt;br/&gt;&amp;quot;Yu Mincho&amp;quot;;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:IN;mso-fareast-language:JA;mso-bidi-language:AR-SA;&lt;br/&gt;mso-no-proof:yes&quot; lang=&quot;IN&quot;&gt;Agresivitas Pajak&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:&lt;br/&gt;11.0pt;line-height:106%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&lt;br/&gt;&amp;quot;Yu Mincho&amp;quot;;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:IN;mso-fareast-language:JA;mso-bidi-language:AR-SA;&lt;br/&gt;mso-no-proof:yes&quot; lang=&quot;IN&quot;&gt;(X&lt;sub&gt;3&lt;/sub&gt;)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-885" y="-240" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-6" value="&lt;div&gt;&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:&lt;br/&gt;11.0pt;line-height:106%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&lt;br/&gt;&amp;quot;Yu Mincho&amp;quot;;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:IN;mso-fareast-language:JA;mso-bidi-language:AR-SA;&lt;br/&gt;mso-no-proof:yes&quot; lang=&quot;IN&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 106%;&quot; lang=&quot;IN&quot;&gt;Kualitas Laba&amp;nbsp;&lt;br&gt;&lt;/span&gt;(Y)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-612" y="-350" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-17" value="H&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-725" y="-372" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-18" value="H&lt;sub&gt;2&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-736" y="-325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-19" value="H&lt;sub&gt;3&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS4c9vpTqhQJPgcnS-w6-20" value="H&lt;sub&gt;4&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-736" y="-132" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
