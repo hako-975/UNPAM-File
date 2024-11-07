@@ -1,0 +1,15 @@
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\praktikum_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\praktikum_2.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\praktikum_2.AssemblyInfo.cs
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\praktikum_2.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\praktikum_2.sourcelink.json
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\bin\Debug\net8.0\praktikum_2.exe
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\bin\Debug\net8.0\praktikum_2.deps.json
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\bin\Debug\net8.0\praktikum_2.runtimeconfig.json
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\bin\Debug\net8.0\praktikum_2.dll
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\bin\Debug\net8.0\praktikum_2.pdb
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\praktikum_2.dll
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\refint\praktikum_2.dll
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\praktikum_2.pdb
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\praktikum_2.genruntimeconfig.cache
+C:\Users\USER\Documents\UNPAM-File\bantuin\yanv\praktikum_2\obj\Debug\net8.0\ref\praktikum_2.dll
