@@ -1,28 +1,28 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="868" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="719" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Guru" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="225.5" height="582" as="geometry" />
+          <mxGeometry x="164.5" y="128" width="250" height="582" as="geometry" />
         </mxCell>
-        <mxCell id="H58YDJJVwFF_YMrYRW6M-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="5" target="7">
+        <mxCell id="H58YDJJVwFF_YMrYRW6M-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="5" target="7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
-          <mxGeometry x="97.75" y="40" width="30" height="30" as="geometry" />
+          <mxGeometry x="97.75" y="32" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H58YDJJVwFF_YMrYRW6M-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="7" target="8">
+        <mxCell id="H58YDJJVwFF_YMrYRW6M-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="7" target="8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Observasi &#xa;perkembangan &#xa;anak" style="" parent="2" vertex="1">
-          <mxGeometry x="45.25" y="92" width="135" height="50" as="geometry" />
+        <mxCell id="7" value="Observasi perkembangan &#xa;siswa (kognitif, bahasa, &#xa;motorik,sosial-emosional, &#xa;agama &amp; moral, kemandirian)" style="" parent="2" vertex="1">
+          <mxGeometry x="10.38" y="80" width="204.75" height="62" as="geometry" />
         </mxCell>
         <mxCell id="8" value="Catat hasil observasi &#xa;pada lembar penilaian" style="" parent="2" vertex="1">
           <mxGeometry x="45.25" y="162" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="H58YDJJVwFF_YMrYRW6M-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="NVAH23ojacz8yfXOQpdd-22" target="H58YDJJVwFF_YMrYRW6M-9">
+        <mxCell id="H58YDJJVwFF_YMrYRW6M-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="NVAH23ojacz8yfXOQpdd-22" target="H58YDJJVwFF_YMrYRW6M-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVAH23ojacz8yfXOQpdd-22" value="Olahan hasil penilaian &#xa;secara manual" style="" parent="2" vertex="1">
@@ -43,14 +43,14 @@
         <mxCell id="NVAH23ojacz8yfXOQpdd-28" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
           <mxGeometry x="97.75" y="542" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H58YDJJVwFF_YMrYRW6M-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="H58YDJJVwFF_YMrYRW6M-9" target="NVAH23ojacz8yfXOQpdd-24">
+        <mxCell id="H58YDJJVwFF_YMrYRW6M-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="H58YDJJVwFF_YMrYRW6M-9" target="NVAH23ojacz8yfXOQpdd-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H58YDJJVwFF_YMrYRW6M-9" value="Diskusi dengan &#xa;pihak sekolah" style="" vertex="1" parent="2">
+        <mxCell id="H58YDJJVwFF_YMrYRW6M-9" value="Diskusi dengan &#xa;pihak sekolah" style="" parent="2" vertex="1">
           <mxGeometry x="45.25" y="322" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Sistem" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="390" y="128" width="222.25" height="582" as="geometry" />
+          <mxGeometry x="414.5" y="128" width="222.25" height="582" as="geometry" />
         </mxCell>
         <mxCell id="NVAH23ojacz8yfXOQpdd-20" value="Menampung data &#xa;observasi" style="" parent="3" vertex="1">
           <mxGeometry x="43.629999999999995" y="162" width="135" height="50" as="geometry" />
