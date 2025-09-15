@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram id="O7_p2qTZbFpivkJzxj6x" name="Page-1">
+    <mxGraphModel dx="595" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-28" value="Admin" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="180" y="60" width="150" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-29" value="Activity Diagram - Menginput Nilai Awal" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=230;height=20;" parent="1" vertex="1">
+          <mxGeometry x="160" y="20" width="350" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SwkU2ouvjTg10X0OA1fk-31" target="SwkU2ouvjTg10X0OA1fk-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-31" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="240" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SwkU2ouvjTg10X0OA1fk-33" target="SwkU2ouvjTg10X0OA1fk-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-33" value="Membuka Menu Nilai Awal" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="205" y="139" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-34" value="Sistem" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="330" y="60" width="160" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-35" value="Menampilkan Halaman Nilai Awal" style="html=1;dashed=0;whiteSpace=wrap;" parent="SwkU2ouvjTg10X0OA1fk-34" vertex="1">
+          <mxGeometry x="30" y="79" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-37" value="Menampilkan Form Tambah Nilai Awal" style="html=1;dashed=0;whiteSpace=wrap;" parent="SwkU2ouvjTg10X0OA1fk-34" vertex="1">
+          <mxGeometry x="30" y="160" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-47" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="SwkU2ouvjTg10X0OA1fk-34" vertex="1">
+          <mxGeometry x="65" y="390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-39" value="Menyimpan Data Nilai Awal" style="html=1;dashed=0;whiteSpace=wrap;" parent="SwkU2ouvjTg10X0OA1fk-34" vertex="1">
+          <mxGeometry x="30" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SwkU2ouvjTg10X0OA1fk-34" source="SwkU2ouvjTg10X0OA1fk-39" target="SwkU2ouvjTg10X0OA1fk-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="SwkU2ouvjTg10X0OA1fk-34" source="SwkU2ouvjTg10X0OA1fk-56" target="SwkU2ouvjTg10X0OA1fk-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-56" value="Menampilkan Form Tambah Nilai Awal" style="html=1;dashed=0;whiteSpace=wrap;" parent="SwkU2ouvjTg10X0OA1fk-34" vertex="1">
+          <mxGeometry x="30" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SwkU2ouvjTg10X0OA1fk-49" target="SwkU2ouvjTg10X0OA1fk-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-49" value="Memilih Tambah Nilai Awal" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="205" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SwkU2ouvjTg10X0OA1fk-35" target="SwkU2ouvjTg10X0OA1fk-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="200" />
+              <mxPoint x="255" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SwkU2ouvjTg10X0OA1fk-52" target="SwkU2ouvjTg10X0OA1fk-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-52" value="Mengisi Siswa, Nilai Kognitif, Bahasa, Motorik, Sosial-Emosional, Agama &amp;amp; Moral, Kemandirian" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="192.5" y="300" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SwkU2ouvjTg10X0OA1fk-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SwkU2ouvjTg10X0OA1fk-37" target="SwkU2ouvjTg10X0OA1fk-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="280" />
+              <mxPoint x="255" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
