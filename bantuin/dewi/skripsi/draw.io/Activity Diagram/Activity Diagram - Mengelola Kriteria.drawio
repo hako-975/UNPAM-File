@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="_coZS1WRlcoWsEXlG5wb">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ccyouhwph8pUIZQp9j_v-1" value="Pengguna" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="259" y="120" width="150" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-2" value="Activity Diagram - Mengelola Kriteria" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=231;height=20;" parent="1" vertex="1">
+          <mxGeometry x="239" y="80" width="350" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ccyouhwph8pUIZQp9j_v-4" target="ccyouhwph8pUIZQp9j_v-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="319" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ccyouhwph8pUIZQp9j_v-6" target="ccyouhwph8pUIZQp9j_v-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-6" value="Membuka Menu Kriteria" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="284" y="199" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-7" value="Sistem" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="409" y="120" width="160" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-8" value="Menampilkan Halaman Kriteria" style="html=1;dashed=0;whiteSpace=wrap;" parent="ccyouhwph8pUIZQp9j_v-7" vertex="1">
+          <mxGeometry x="30" y="79" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ccyouhwph8pUIZQp9j_v-7" source="ccyouhwph8pUIZQp9j_v-9" target="ccyouhwph8pUIZQp9j_v-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-9" value="Memproses Data Kriteria" style="html=1;dashed=0;whiteSpace=wrap;" parent="ccyouhwph8pUIZQp9j_v-7" vertex="1">
+          <mxGeometry x="30" y="160" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-10" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="ccyouhwph8pUIZQp9j_v-7" vertex="1">
+          <mxGeometry x="65" y="390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-11" value="Menyimpan Data Kriteria" style="html=1;dashed=0;whiteSpace=wrap;" parent="ccyouhwph8pUIZQp9j_v-7" vertex="1">
+          <mxGeometry x="30" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ccyouhwph8pUIZQp9j_v-7" source="ccyouhwph8pUIZQp9j_v-11" target="ccyouhwph8pUIZQp9j_v-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ccyouhwph8pUIZQp9j_v-7" source="ccyouhwph8pUIZQp9j_v-14" target="ccyouhwph8pUIZQp9j_v-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-14" value="Menampilkan Halaman Kriteria" style="html=1;dashed=0;whiteSpace=wrap;" parent="ccyouhwph8pUIZQp9j_v-7" vertex="1">
+          <mxGeometry x="30" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ccyouhwph8pUIZQp9j_v-16" target="ccyouhwph8pUIZQp9j_v-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-16" value="Tambah / Ubah / Hapus Data Kriteria" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="284" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ccyouhwph8pUIZQp9j_v-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ccyouhwph8pUIZQp9j_v-8" target="ccyouhwph8pUIZQp9j_v-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="489" y="260" />
+              <mxPoint x="334" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
